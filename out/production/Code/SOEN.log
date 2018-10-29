@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T13:12:52</date>
+  <millis>1540746772698</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T13:12:52</date>
+  <millis>1540746772714</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T13:21:52</date>
+  <millis>1540747312517</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T13:21:52</date>
+  <millis>1540747312533</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-10-28T13:38:49</date>
+  <millis>1540748329549</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T13:38:49.549 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-10-28T13:39:05</date>
+  <millis>1540748345536</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>16</thread>
+  <message>Date &amp; Time: 2018-10-28T13:39:05.536 | Request type: Enroll Course | Request Parameters: COMPS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-28T13:39:24</date>
+  <millis>1540748364612</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T13:39:24.612 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Failed | Server Response: The course is full!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T13:47:55</date>
+  <millis>1540748875980</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T13:47:55</date>
+  <millis>1540748875995</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T14:14:11</date>
+  <millis>1540750451316</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T14:14:11</date>
+  <millis>1540750451332</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T14:22:57</date>
+  <millis>1540750977971</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T14:22:58</date>
+  <millis>1540750978003</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T14:38:41</date>
+  <millis>1540751921177</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T14:38:41</date>
+  <millis>1540751921209</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T14:54:11</date>
+  <millis>1540752851622</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T14:54:11</date>
+  <millis>1540752851638</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T15:44:00</date>
+  <millis>1540755840611</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T15:44:00</date>
+  <millis>1540755840658</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-10-28T15:44:36</date>
+  <millis>1540755876266</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T15:44:36.251 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE6320, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-28T15:44:49</date>
+  <millis>1540755889954</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T15:44:49.954 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE6320, winter | Request Failed | Server Response: You have already enrolled for this course!</message>
+</record>
+<record>
+  <date>2018-10-28T15:44:56</date>
+  <millis>1540755896829</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T15:44:56.829 | Request type: Drop Course | Request Parameters: SOENS1001, INSE6320, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-10-28T15:45:05</date>
+  <millis>1540755905001</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T15:45:05.001 | Request type: Drop Course | Request Parameters: SOENS1001, INSE6320, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-10-28T15:45:19</date>
+  <millis>1540755919220</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T15:45:19.220 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE6320, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T15:50:37</date>
+  <millis>1540756237685</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T15:50:37</date>
+  <millis>1540756237704</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-10-28T17:55:53</date>
+  <millis>1540763753420</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T17:55:53.404 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP1001, winter | Request Failed | Server Response: Could not find the course!</message>
+</record>
+<record>
+  <date>2018-10-28T17:56:00</date>
+  <millis>1540763760650</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T17:56:00.650 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP1001, fall | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-28T17:56:04</date>
+  <millis>1540763764660</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T17:56:04.660 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: CourseRegistrationApp.CoursesHolder@7b4dea0b</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T17:57:54</date>
+  <millis>1540763874868</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T17:57:54</date>
+  <millis>1540763874930</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-10-28T17:59:16</date>
+  <millis>1540763956489</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T17:59:16.489 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP1001, fall | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-28T17:59:19</date>
+  <millis>1540763959271</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T17:59:19.271 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: CourseRegistrationApp.CoursesHolder@46c341cf</message>
+</record>
+<record>
+  <date>2018-10-28T17:59:48</date>
+  <millis>1540763988253</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T17:59:48.253 | Request type: Drop Course | Request Parameters: SOENS1001, COMP1001, fall | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-10-28T17:59:56</date>
+  <millis>1540763996348</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T17:59:56.348 | Request type: Drop Course | Request Parameters: SOENS1001, COMP1001, fall | Request Completed | Server Response: Not enrolled in the Course</message>
+</record>
+<record>
+  <date>2018-10-28T18:01:34</date>
+  <millis>1540764094800</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T18:01:34.800 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: CourseRegistrationApp.CoursesHolder@8abbc46</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T20:10:44</date>
+  <millis>1540771844799</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T20:10:44</date>
+  <millis>1540771844815</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T20:15:05</date>
+  <millis>1540772105635</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T20:15:05</date>
+  <millis>1540772105651</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T20:17:52</date>
+  <millis>1540772272428</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T20:17:52</date>
+  <millis>1540772272443</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T20:56:58</date>
+  <millis>1540774618971</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T20:56:59</date>
+  <millis>1540774619002</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T20:59:55</date>
+  <millis>1540774795365</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T20:59:55</date>
+  <millis>1540774795397</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T21:49:43</date>
+  <millis>1540777783042</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T21:49:43</date>
+  <millis>1540777783057</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T21:52:24</date>
+  <millis>1540777944738</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T21:52:24</date>
+  <millis>1540777944785</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T21:54:54</date>
+  <millis>1540778094559</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T21:54:54</date>
+  <millis>1540778094575</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T22:06:23</date>
+  <millis>1540778783289</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T22:06:23</date>
+  <millis>1540778783304</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T22:14:40</date>
+  <millis>1540779280520</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T22:14:40</date>
+  <millis>1540779280535</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T22:29:05</date>
+  <millis>1540780145114</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-28T22:29:05</date>
+  <millis>1540780145177</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-10-28T22:30:47</date>
+  <millis>1540780247711</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T22:30:47.696 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-10-28T22:31:47</date>
+  <millis>1540780307648</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T22:31:47.648 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-10-28T22:32:34</date>
+  <millis>1540780354575</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T22:32:34.575 | Request type: List Course Availability | Request Parameters: SOENA1001, winter | Request Completed | Server Response: CourseRegistrationApp.TermHolder@24f0a45b</message>
+</record>
+<record>
+  <date>2018-10-28T22:32:46</date>
+  <millis>1540780366893</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T22:32:46.893 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-28T22:32:50</date>
+  <millis>1540780370308</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T22:32:50.308 | Request type: List Course Availability | Request Parameters: SOENA1001, winter | Request Completed | Server Response: CourseRegistrationApp.TermHolder@711beaee</message>
+</record>
+</log>

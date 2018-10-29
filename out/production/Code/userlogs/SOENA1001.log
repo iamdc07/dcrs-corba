@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T13:38:44</date>
+  <millis>1540748324354</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T13:38:44.354 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T13:38:49</date>
+  <millis>1540748329549</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T13:38:49.549Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T22:30:42</date>
+  <millis>1540780242578</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T22:30:42.578 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T22:30:47</date>
+  <millis>1540780247711</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T22:30:47.711Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-10-28T22:31:00</date>
+  <millis>1540780260150</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T22:31:00.150 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T22:31:47</date>
+  <millis>1540780307664</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T22:31:47.664Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-10-28T22:32:34</date>
+  <millis>1540780354559</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T22:32:34.559 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T22:32:34</date>
+  <millis>1540780354575</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T22:32:34.575Response from Server: true</message>
+</record>
+<record>
+  <date>2018-10-28T22:32:40</date>
+  <millis>1540780360271</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T22:32:40.271 Operation: Enroll Course for Student
+</message>
+</record>
+<record>
+  <date>2018-10-28T22:32:46</date>
+  <millis>1540780366893</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-28T22:32:46.893 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-28T22:32:50</date>
+  <millis>1540780370292</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T22:32:50.292 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T22:32:50</date>
+  <millis>1540780370308</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T22:32:50.308Response from Server: true</message>
+</record>
+</log>

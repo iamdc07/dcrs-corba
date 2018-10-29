@@ -1,0 +1,35 @@
+module CourseRegistrationApp{
+
+    typedef sequence<string> Term;
+
+    struct Course{
+        string course_name;
+        string term;
+        string course_id;
+        short capacity;
+        Term enrolledStudentId;
+    };
+
+    typedef sequence<string> Courses;
+    typedef sequence<short> Seats_Available;
+
+    interface Server{
+
+    boolean advisor_exists(in string advisor_id, in string dept);
+
+    boolean student_exists(in string student_id, in string dept);
+
+    string enroll(in string courseId, in string studentId, in string term, in string dept);
+
+    string addCourse(in string advisor_id, in string course_id, in string course_name, in string term, in string dept,
+                            in short capacity);
+
+    string dropCourse(in string advisor_id, in string course_id, in string term, in string dept);
+
+    string removeCourse(in string advisor_id, in string course_id, in string term, in string dept);
+
+    boolean listCourseAvailability(in string advisor_id, in string term, in string dept, out Term theTerm);
+
+    boolean getClassSchedule(in string studentId, out Term term, out Courses courses);
+    };
+};

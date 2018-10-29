@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T13:18:00</date>
+  <millis>1540747080951</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T13:18:00</date>
+  <millis>1540747080967</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T13:21:54</date>
+  <millis>1540747314436</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T13:21:54</date>
+  <millis>1540747314451</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T13:50:45</date>
+  <millis>1540749045633</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T13:50:45</date>
+  <millis>1540749045648</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T14:14:18</date>
+  <millis>1540750458154</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T14:14:18</date>
+  <millis>1540750458185</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T14:23:01</date>
+  <millis>1540750981924</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T14:23:01</date>
+  <millis>1540750981940</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T14:38:45</date>
+  <millis>1540751925549</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T14:38:45</date>
+  <millis>1540751925580</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T14:54:03</date>
+  <millis>1540752843767</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T14:54:03</date>
+  <millis>1540752843783</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T15:43:58</date>
+  <millis>1540755838218</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T15:43:58</date>
+  <millis>1540755838249</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+<record>
+  <date>2018-10-28T15:44:24</date>
+  <millis>1540755864207</millis>
+  <sequence>2</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-28T15:44:24.191 | Request type: Add Course | Request Parameters: INSEA1001, INSE6320, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-10-28T15:44:36</date>
+  <millis>1540755876235</millis>
+  <sequence>3</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>14</thread>
+  <message>Date &amp; Time: 2018-10-28T15:44:36.235 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE6320, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-28T15:44:56</date>
+  <millis>1540755896829</millis>
+  <sequence>4</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>15</thread>
+  <message>Date &amp; Time: 2018-10-28T15:44:56.829 | Request type: Drop Course | Request Parameters: SOENS1001, INSE6320, winter | Request Completed  | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-10-28T15:45:05</date>
+  <millis>1540755905001</millis>
+  <sequence>5</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>16</thread>
+  <message>Date &amp; Time: 2018-10-28T15:45:05.001 | Request type: Drop Course | Request Parameters: SOENS1001, INSE6320, winter | Request Completed  | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-10-28T15:45:19</date>
+  <millis>1540755919220</millis>
+  <sequence>6</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>17</thread>
+  <message>Date &amp; Time: 2018-10-28T15:45:19.220 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE6320, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T15:50:33</date>
+  <millis>1540756233094</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T15:50:33</date>
+  <millis>1540756233125</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T17:57:59</date>
+  <millis>1540763879894</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T17:57:59</date>
+  <millis>1540763879941</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T20:10:39</date>
+  <millis>1540771839066</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T20:10:39</date>
+  <millis>1540771839097</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T20:14:45</date>
+  <millis>1540772085594</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T20:14:45</date>
+  <millis>1540772085609</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T20:17:48</date>
+  <millis>1540772268296</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T20:17:48</date>
+  <millis>1540772268327</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T20:57:02</date>
+  <millis>1540774622816</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T20:57:02</date>
+  <millis>1540774622863</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T20:59:51</date>
+  <millis>1540774791204</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T20:59:51</date>
+  <millis>1540774791219</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T21:49:37</date>
+  <millis>1540777777591</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T21:49:37</date>
+  <millis>1540777777606</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T21:52:19</date>
+  <millis>1540777939559</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T21:52:19</date>
+  <millis>1540777939570</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T21:54:56</date>
+  <millis>1540778096481</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T21:54:56</date>
+  <millis>1540778096523</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T22:06:26</date>
+  <millis>1540778786412</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T22:06:26</date>
+  <millis>1540778786443</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T22:14:42</date>
+  <millis>1540779282809</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T22:14:42</date>
+  <millis>1540779282840</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T22:29:07</date>
+  <millis>1540780147063</millis>
+  <sequence>0</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: INSE</message>
+</record>
+<record>
+  <date>2018-10-28T22:29:07</date>
+  <millis>1540780147078</millis>
+  <sequence>1</sequence>
+  <logger>INSE Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for INSE is up and running on port 6793</message>
+</record>
+</log>

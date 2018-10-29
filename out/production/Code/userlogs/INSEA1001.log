@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T15:44:17</date>
+  <millis>1540755857142</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T15:44:17.142 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T15:44:24</date>
+  <millis>1540755864207</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T15:44:24.207Response from Server: Success</message>
+</record>
+</log>
