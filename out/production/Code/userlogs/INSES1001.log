@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T23:18:54</date>
+  <millis>1540783134495</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSES1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:18:54.495 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-28T23:18:57</date>
+  <millis>1540783137277</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSES1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:18:57.277 Response from Server: The course is full!</message>
+</record>
+<record>
+  <date>2018-10-28T23:19:42</date>
+  <millis>1540783182038</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSES1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:19:42.038 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-10-28T23:19:42</date>
+  <millis>1540783182038</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSES1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:19:42.038Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T23:33:18</date>
+  <millis>1540783998136</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSES1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:33:18.120 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-28T23:33:23</date>
+  <millis>1540784003029</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSES1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:33:23.029 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-28T23:33:26</date>
+  <millis>1540784006337</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSES1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:33:26.337 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-10-28T23:33:26</date>
+  <millis>1540784006353</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSES1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:33:26.353Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+</log>

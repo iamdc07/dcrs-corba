@@ -30,6 +30,8 @@ module CourseRegistrationApp{
 
     boolean listCourseAvailability(in string advisor_id, in string term, in string dept, out Term theTerm);
 
-    boolean getClassSchedule(in string studentId, out Term term, out Courses courses);
+    boolean getClassSchedule(in string studentId, out string courseList);
+
+    boolean swapCourse(in string studentIid, in string oldCourseId, in string newCourseId, in string dept);
     };
 };

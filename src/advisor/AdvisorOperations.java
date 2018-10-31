@@ -1,12 +1,8 @@
 package advisor;
 
 import CourseRegistrationApp.*;
-import server.ServerInterface;
 
-import java.rmi.RemoteException;
 import java.time.LocalDateTime;
-import java.util.HashMap;
-import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
@@ -55,22 +51,23 @@ public class AdvisorOperations {
 
     }
 
-    public void listCourseAvailability(String advisorId, Server server, String term, String dept)
-            throws RemoteException {
+    public void listCourseAvailability(String advisorId, Server server, String term, String dept) {
         TermHolder termHolder = new TermHolder();
         int k = 0;
 
         boolean result = server.listCourseAvailability(advisorId, term, dept, termHolder);
         logs.info(LocalDateTime.now() + "Response from Server: " + result);
         if (result) {
-            System.out.println("Courses available for " + term + "term: ");
+            System.out.println("Courses available for " + term + " term: ");
             for (String courseId : termHolder.value) {
-                String[] idAndSeats = courseId.split(",");
-                String[] ids = idAndSeats[0].split(";");
-                String[] seats = idAndSeats[1].split(";");
-                int counter = 0;
-                for (String item : ids) {
-                    System.out.println("COURSE: " + item + "\t" + "Seats Available: " + seats[counter++]);
+                if (!(courseId.trim().equalsIgnoreCase(","))) {
+                    String[] idAndSeats = courseId.split(",");
+                    String[] ids = idAndSeats[0].split(";");
+                    String[] seats = idAndSeats[1].split(";");
+                    int counter = 0;
+                    for (String item : ids) {
+                        System.out.println("COURSE: " + item + "\t" + "Seats Available: " + seats[counter++]);
+                    }
                 }
             }
         } else {

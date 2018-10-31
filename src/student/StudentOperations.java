@@ -3,13 +3,9 @@ package student;
 import CourseRegistrationApp.CoursesHolder;
 import CourseRegistrationApp.Server;
 import CourseRegistrationApp.TermHolder;
-import server.ServerInterface;
+import org.omg.CORBA.StringHolder;
 
-import java.rmi.RemoteException;
 import java.time.LocalDateTime;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
@@ -43,14 +39,20 @@ public class StudentOperations {
     public void getClassSchedule(String student_id, Server server) {
         TermHolder theTerm = new TermHolder();
         CoursesHolder courses = new CoursesHolder();
-        boolean result = server.getClassSchedule(student_id, theTerm, courses);
+        StringHolder courseList = new StringHolder();
+        int counter = 0;
+
+        boolean result = server.getClassSchedule(student_id, courseList);
         logs.info(LocalDateTime.now() + "Response from Server: " + courses);
         System.out.println("All the courses enrolled by " + student_id);
         if (result) {
-            for (String term : theTerm.value) {
-                System.out.println("Term: " + term);
-                for (String course : courses.value) {
-                    System.out.println("\tCourseId: " + course);
+            String[] eachTerm = courseList.value.split(",");
+            for (String item : eachTerm) {
+                String[] termsCourses = eachTerm[counter++].split(";");
+                System.out.print("Term: ");
+                for (String elements : termsCourses) {
+                    System.out.print(elements);
+                    System.out.println("\t");
                 }
             }
         }

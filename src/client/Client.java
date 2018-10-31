@@ -10,14 +10,10 @@ import org.omg.CosNaming.NamingContextExt;
 import org.omg.CosNaming.NamingContextExtHelper;
 import org.omg.CosNaming.NamingContextPackage.CannotProceed;
 import org.omg.CosNaming.NamingContextPackage.NotFound;
-import server.ServerInterface;
 import student.StudentOperations;
 
 import java.io.File;
 import java.io.IOException;
-import java.rmi.RemoteException;
-import java.rmi.registry.LocateRegistry;
-import java.rmi.registry.Registry;
 import java.time.LocalDateTime;
 import java.util.Scanner;
 import java.util.logging.FileHandler;
@@ -95,102 +91,99 @@ public class Client {
         if (!(logDir.exists()))
             logDir.mkdir();
 
-        try {
-            // Check if Advisor
-            if (advisor && !(dept.equals(""))) {
-                // Check if Advisor is valid
-                Boolean valid_advisor = server.advisor_exists(id, dept);
-                if (valid_advisor) {
-                    // Set up the logging mechanism
-                    try {
-                        fileHandler = new FileHandler("userlogs/" + id + ".log", true);
-                        logs.addHandler(fileHandler);
-                    } catch (IOException ioe) {
-                        logs.warning("Failed to create handler for log file.\n Message: " + ioe.getMessage());
-                    }
 
-                    while (true) {
-                        System.out.println("\nEnter Term: ");
-                        String term = sc.nextLine();
-
-                        System.out.println("\nEnter your Choice: ");
-                        System.out.println("1. Add Course: ");
-                        System.out.println("2. Remove Course: ");
-                        System.out.println("3. List Course Availability: ");
-                        System.out.println("4. Enroll a Student: ");
-                        System.out.println("5. Drop a Course: ");
-                        System.out.println("6. Get Class Schedule: ");
-                        String choice = sc.nextLine();
-
-                        if (choice.equals("1")) {
-                            logs.info(LocalDateTime.now() + " Operation: Add Course\n");
-                            advisoroperations.add_Course(id, term, server, dept);
-                        } else if (choice.equals("2")) {
-                            logs.info(LocalDateTime.now() + " Operation: Remove Course\n");
-                            advisoroperations.remove_Course(id, term, server, dept);
-                        } else if (choice.equals("3")) {
-                            logs.info(LocalDateTime.now() + " Operation: List Course Availability\n");
-                            advisoroperations.listCourseAvailability(id, server, term, dept);
-                        } else if (choice.equals("4")) {
-                            logs.info(LocalDateTime.now() + " Operation: Enroll Course for Student\n");
-                            System.out.println("Enter the Student Id: ");
-                            String studentId = sc.nextLine().toUpperCase();
-                            studentoperations.enrollCourse(studentId, term, server, dept);
-                        } else if (choice.equals("5")) {
-                            logs.info(LocalDateTime.now() + " Operation: Drop Course for Student\n");
-                            System.out.println("Enter the Student Id: ");
-                            String studentId = sc.nextLine().toUpperCase();
-                            studentoperations.dropCourse(studentId, term, server, dept);
-                        } else if (choice.equals("6")) {
-                            logs.info(LocalDateTime.now() + " Operation: Get Class Schedule for Student\n");
-                            System.out.println("Enter the Student Id: ");
-                            String studentId = sc.nextLine().toUpperCase();
-                            studentoperations.getClassSchedule(studentId, server);
-                        }
-                    }
-
-                } else {
-                    System.out.println("ID not registered in database!");
+        // Check if Advisor
+        if (advisor && !(dept.equals(""))) {
+            // Check if Advisor is valid
+            Boolean valid_advisor = server.advisor_exists(id, dept);
+            if (valid_advisor) {
+                // Set up the logging mechanism
+                try {
+                    fileHandler = new FileHandler("userlogs/" + id + ".log", true);
+                    logs.addHandler(fileHandler);
+                } catch (IOException ioe) {
+                    logs.warning("Failed to create handler for log file.\n Message: " + ioe.getMessage());
                 }
-            } else if (student && !(dept.equals(""))) {
-                // Check if StudentId is valid
-                Boolean valid_student = server.student_exists(id, dept);
-                if (valid_student) {
-                    // Set up the logging mechanism
-                    logs = Logger.getLogger("User Id: " + id);
-                    try {
-                        fileHandler = new FileHandler("userlogs/" + id + ".log", true);
-                        logs.addHandler(fileHandler);
-                    } catch (IOException ioe) {
-                        logs.warning("Failed to create handler for log file.\n Message: " + ioe.getMessage());
-                    }
-                    while (true) {
-                        System.out.println("\nEnter Term: ");
-                        String term = sc.nextLine();
 
-                        System.out.println("\nEnter your Choice: ");
-                        System.out.println("1. Enroll Course: ");
-                        System.out.println("2. Drop Course: ");
-                        System.out.println("3. Get Class Schedule: ");
-                        String choice = sc.nextLine();
+                while (true) {
+                    System.out.println("\nEnter Term: ");
+                    String term = sc.nextLine();
 
-                        if (choice.equals("1")) {
-                            logs.info(LocalDateTime.now() + " Operation: Enroll Course");
-                            studentoperations.enrollCourse(id, term, server, dept);
-                        } else if (choice.equals("2")) {
-                            logs.info(LocalDateTime.now() + " Operation: Drop Course");
-                            studentoperations.dropCourse(id, term, server, dept);
-                        } else if (choice.equals("3")) {
-                            logs.info(LocalDateTime.now() + " Operation: Get Class Schedule");
-                            studentoperations.getClassSchedule(id, server);
-                        }
+                    System.out.println("\nEnter your Choice: ");
+                    System.out.println("1. Add Course: ");
+                    System.out.println("2. Remove Course: ");
+                    System.out.println("3. List Course Availability: ");
+                    System.out.println("4. Enroll a Student: ");
+                    System.out.println("5. Drop a Course: ");
+                    System.out.println("6. Get Class Schedule: ");
+                    String choice = sc.nextLine();
+
+                    if (choice.equals("1")) {
+                        logs.info(LocalDateTime.now() + " Operation: Add Course\n");
+                        advisoroperations.add_Course(id, term, server, dept);
+                    } else if (choice.equals("2")) {
+                        logs.info(LocalDateTime.now() + " Operation: Remove Course\n");
+                        advisoroperations.remove_Course(id, term, server, dept);
+                    } else if (choice.equals("3")) {
+                        logs.info(LocalDateTime.now() + " Operation: List Course Availability\n");
+                        advisoroperations.listCourseAvailability(id, server, term, dept);
+                    } else if (choice.equals("4")) {
+                        logs.info(LocalDateTime.now() + " Operation: Enroll Course for Student\n");
+                        System.out.println("Enter the Student Id: ");
+                        String studentId = sc.nextLine().toUpperCase();
+                        studentoperations.enrollCourse(studentId, term, server, dept);
+                    } else if (choice.equals("5")) {
+                        logs.info(LocalDateTime.now() + " Operation: Drop Course for Student\n");
+                        System.out.println("Enter the Student Id: ");
+                        String studentId = sc.nextLine().toUpperCase();
+                        studentoperations.dropCourse(studentId, term, server, dept);
+                    } else if (choice.equals("6")) {
+                        logs.info(LocalDateTime.now() + " Operation: Get Class Schedule for Student\n");
+                        System.out.println("Enter the Student Id: ");
+                        String studentId = sc.nextLine().toUpperCase();
+                        studentoperations.getClassSchedule(studentId, server);
                     }
                 }
+
             } else {
-                System.out.print("Invalid ID");
+                System.out.println("ID not registered in database!");
             }
-        } catch (RemoteException r) {
-            r.printStackTrace();
+        } else if (student && !(dept.equals(""))) {
+            // Check if StudentId is valid
+            Boolean valid_student = server.student_exists(id, dept);
+            if (valid_student) {
+                // Set up the logging mechanism
+                logs = Logger.getLogger("User Id: " + id);
+                try {
+                    fileHandler = new FileHandler("userlogs/" + id + ".log", true);
+                    logs.addHandler(fileHandler);
+                } catch (IOException ioe) {
+                    logs.warning("Failed to create handler for log file.\n Message: " + ioe.getMessage());
+                }
+                while (true) {
+                    System.out.println("\nEnter Term: ");
+                    String term = sc.nextLine();
+
+                    System.out.println("\nEnter your Choice: ");
+                    System.out.println("1. Enroll Course: ");
+                    System.out.println("2. Drop Course: ");
+                    System.out.println("3. Get Class Schedule: ");
+                    String choice = sc.nextLine();
+
+                    if (choice.equals("1")) {
+                        logs.info(LocalDateTime.now() + " Operation: Enroll Course");
+                        studentoperations.enrollCourse(id, term, server, dept);
+                    } else if (choice.equals("2")) {
+                        logs.info(LocalDateTime.now() + " Operation: Drop Course");
+                        studentoperations.dropCourse(id, term, server, dept);
+                    } else if (choice.equals("3")) {
+                        logs.info(LocalDateTime.now() + " Operation: Get Class Schedule");
+                        studentoperations.getClassSchedule(id, server);
+                    }
+                }
+            }
+        } else {
+            System.out.print("Invalid ID");
         }
         sc.close();
 

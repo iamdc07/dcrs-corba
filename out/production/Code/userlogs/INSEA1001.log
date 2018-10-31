@@ -25,3 +25,548 @@
   <message>2018-10-28T15:44:24.207Response from Server: Success</message>
 </record>
 </log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T23:15:58</date>
+  <millis>1540782958880</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:15:58.865 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:16:08</date>
+  <millis>1540782968404</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:16:08.404Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-10-28T23:16:13</date>
+  <millis>1540782973902</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:16:13.902 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:16:13</date>
+  <millis>1540782973933</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:16:13.933Response from Server: true</message>
+</record>
+<record>
+  <date>2018-10-28T23:19:13</date>
+  <millis>1540783153946</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:19:13.946 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:19:13</date>
+  <millis>1540783153946</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:19:13.946Response from Server: true</message>
+</record>
+<record>
+  <date>2018-10-28T23:19:19</date>
+  <millis>1540783159231</millis>
+  <sequence>6</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:19:19.231 Operation: Remove Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:19:22</date>
+  <millis>1540783162592</millis>
+  <sequence>7</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>remove_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:19:22.592Response from Server: Course Removed!</message>
+</record>
+<record>
+  <date>2018-10-28T23:19:26</date>
+  <millis>1540783166598</millis>
+  <sequence>8</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:19:26.598 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:19:26</date>
+  <millis>1540783166614</millis>
+  <sequence>9</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:19:26.614Response from Server: true</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T23:32:46</date>
+  <millis>1540783966002</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:32:46.002 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:32:50</date>
+  <millis>1540783970996</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:32:50.996Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-10-28T23:32:52</date>
+  <millis>1540783972623</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:32:52.623 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:32:52</date>
+  <millis>1540783972655</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:32:52.655Response from Server: true</message>
+</record>
+<record>
+  <date>2018-10-28T23:33:33</date>
+  <millis>1540784013017</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:33:33.017 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:33:33</date>
+  <millis>1540784013033</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:33:33.033Response from Server: true</message>
+</record>
+<record>
+  <date>2018-10-28T23:33:36</date>
+  <millis>1540784016755</millis>
+  <sequence>6</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:33:36.755 Operation: Remove Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:33:38</date>
+  <millis>1540784018742</millis>
+  <sequence>7</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>remove_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:33:38.742Response from Server: Course Removed!</message>
+</record>
+<record>
+  <date>2018-10-28T23:33:40</date>
+  <millis>1540784020962</millis>
+  <sequence>8</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:33:40.962 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:33:40</date>
+  <millis>1540784020978</millis>
+  <sequence>9</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:33:40.978Response from Server: true</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T23:39:45</date>
+  <millis>1540784385168</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:39:45.168 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:39:50</date>
+  <millis>1540784390821</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:39:50.821Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-10-28T23:40:31</date>
+  <millis>1540784431138</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:40:31.138 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:40:31</date>
+  <millis>1540784431170</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:40:31.170Response from Server: true</message>
+</record>
+<record>
+  <date>2018-10-28T23:40:47</date>
+  <millis>1540784447821</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:40:47.821 Operation: Remove Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:40:50</date>
+  <millis>1540784450167</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>remove_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:40:50.167Response from Server: Course Removed!</message>
+</record>
+<record>
+  <date>2018-10-28T23:40:53</date>
+  <millis>1540784453170</millis>
+  <sequence>6</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:40:53.170 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:40:53</date>
+  <millis>1540784453186</millis>
+  <sequence>7</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:40:53.186Response from Server: true</message>
+</record>
+<record>
+  <date>2018-10-28T23:41:07</date>
+  <millis>1540784467534</millis>
+  <sequence>8</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:41:07.534 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:41:07</date>
+  <millis>1540784467549</millis>
+  <sequence>9</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:41:07.549Response from Server: true</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-28T23:42:34</date>
+  <millis>1540784554604</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:42:34.604 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:42:41</date>
+  <millis>1540784561871</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:42:41.871Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-10-28T23:42:43</date>
+  <millis>1540784563905</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:42:43.905 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:42:51</date>
+  <millis>1540784571602</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:42:51.602Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-10-28T23:43:26</date>
+  <millis>1540784606687</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:43:26.687 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:43:26</date>
+  <millis>1540784606734</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:43:26.734Response from Server: true</message>
+</record>
+<record>
+  <date>2018-10-28T23:44:11</date>
+  <millis>1540784651903</millis>
+  <sequence>6</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:44:11.903 Operation: Remove Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:44:15</date>
+  <millis>1540784655522</millis>
+  <sequence>7</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>remove_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:44:15.522Response from Server: Course Removed!</message>
+</record>
+<record>
+  <date>2018-10-28T23:44:17</date>
+  <millis>1540784657398</millis>
+  <sequence>8</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:44:17.398 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:44:17</date>
+  <millis>1540784657414</millis>
+  <sequence>9</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:44:17.414Response from Server: true</message>
+</record>
+<record>
+  <date>2018-10-28T23:45:11</date>
+  <millis>1540784711671</millis>
+  <sequence>10</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:45:11.671 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:45:11</date>
+  <millis>1540784711686</millis>
+  <sequence>11</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:45:11.686Response from Server: true</message>
+</record>
+<record>
+  <date>2018-10-28T23:45:15</date>
+  <millis>1540784715759</millis>
+  <sequence>12</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:45:15.759 Operation: Remove Course
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:45:17</date>
+  <millis>1540784717260</millis>
+  <sequence>13</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>remove_Course</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:45:17.260Response from Server: Course Removed!</message>
+</record>
+<record>
+  <date>2018-10-28T23:45:22</date>
+  <millis>1540784722121</millis>
+  <sequence>14</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:45:22.121 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-10-28T23:45:22</date>
+  <millis>1540784722137</millis>
+  <sequence>15</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-10-28T23:45:22.137Response from Server: true</message>
+</record>
+</log>

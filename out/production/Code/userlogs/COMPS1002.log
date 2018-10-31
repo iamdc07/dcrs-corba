@@ -24,3 +24,51 @@
   <message>2018-10-28T13:37:43.487 Response from Server: The course is full!</message>
 </record>
 </log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T13:07:53</date>
+  <millis>1541005673907</millis>
+  <sequence>0</sequence>
+  <logger>User Id: COMPS1002</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T13:07:53.891 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-10-31T13:07:53</date>
+  <millis>1541005673954</millis>
+  <sequence>1</sequence>
+  <logger>User Id: COMPS1002</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-10-31T13:07:53.938Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-10-31T13:09:39</date>
+  <millis>1541005779741</millis>
+  <sequence>2</sequence>
+  <logger>User Id: COMPS1002</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T13:09:39.741 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T13:09:41</date>
+  <millis>1541005781470</millis>
+  <sequence>3</sequence>
+  <logger>User Id: COMPS1002</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T13:09:41.470 Response from Server: The course is full!</message>
+</record>
+</log>

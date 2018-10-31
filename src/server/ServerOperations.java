@@ -2,6 +2,7 @@ package server;
 
 import CourseRegistrationApp.*;
 import org.omg.CORBA.ShortHolder;
+import org.omg.CORBA.StringHolder;
 import schema.Course;
 import schema.UdpPacket;
 
@@ -81,33 +82,17 @@ public class ServerOperations extends ServerPOA {
             if (theTerm != null && theTerm.containsKey(courseId)) {
                 Course course = theTerm.get(courseId);
 
-                if (course.isCourseFull()) {
-                    logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
-                            + " | Request Parameters: " + studentId + ", " + courseId + ", " + term + " | Request Failed"
-                            + " | Server Response: The course is full!");
-                    return "The course is full!";
-                }
+                String checkValue = enrollChecks(courseId, course, studentId, term, courses);
 
-                if (courseId.substring(0, 4).equals(idPrefix)) {
-                    if (courses.containsKey(term)) {
-                        List<String> termCourses = courses.get(term);
-                        if (termCourses.size() == 3) {
-                            logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
-                                    + " | Request Parameters: " + studentId + ", " + courseId + ", " + term
-                                    + " | Request Failed"
-                                    + " | Server Response: You have already reached your limit for this term!");
-                            return "You have already reached your limit for this term!";
-                        }
-                        for (String str : termCourses) {
-                            if (str.equals(courseId)) {
-                                logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
-                                        + " | Request Parameters: " + studentId + ", " + courseId + ", " + term
-                                        + " | Request Failed"
-                                        + " | Server Response: You have already enrolled for this course!");
-                                return "You have already enrolled for this course!";
-                            }
-                        }
-                    }
+                switch (checkValue) {
+                    case "The course is full!":
+                        return checkValue;
+                    case "You have already reached your limit for this term!":
+                        return checkValue;
+                    case "You have already enrolled for this course!":
+                        return checkValue;
+                    case "No errors":
+                        break;
                 }
 
                 // Enroll for the course
@@ -491,45 +476,80 @@ public class ServerOperations extends ServerPOA {
     }
 
     @Override
-    public boolean getClassSchedule(String studentId, TermHolder term, CoursesHolder courses) {
+    public boolean getClassSchedule(String studentId, StringHolder courseList) {
         HashMap<String, List<String>> courseMap = this.studentlist.get(studentId);
-        ArrayList<String> termArray = new ArrayList<>();
-        ArrayList<String> courseArray = new ArrayList<>();
-        int counter = 0;
+        String course = "";
 
         if (!(courseMap.isEmpty())) {
             for (Entry<String, List<String>> theTerm : courseMap.entrySet()) {
                 String termName = theTerm.getKey();
-                termArray.add(termName);
                 List<String> coursesList = theTerm.getValue();
-                for (String course : coursesList) {
-                    courseArray.add(course);
+                course = course.concat(termName + ";");
+
+                for (String theCourse : coursesList) {
+                    course = course.concat(theCourse + ";");
                 }
+                course = course.concat(",");
             }
 
-            String[] terms = new String[termArray.size()];
-            String[] courseList = new String[courseArray.size()];
+            System.out.println("COURSE STRING: " + course);
 
-            for (String item : termArray) {
-                terms[counter++] = item;
-            }
-            counter = 0;
-            for (String item : courseArray) {
-                courseList[counter++] = item;
-            }
-            term.value = terms;
-            courses.value = courseList;
+            courseList.value = course;
 
             logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Get Class Schedule"
-                    + " | Request Parameters: " + studentId + " | Request Completed" + " | Server Response: " + courses);
+                    + " | Request Parameters: " + studentId + " | Request Completed" + " | Server Response: " + course);
             return true;
         } else {
-            term.value = new String[0];
-            courses.value = new String[0];
+            course = "";
             logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Get Class Schedule"
-                    + " | Request Parameters: " + studentId + " | Request Failed" + " | Server Response: " + courses);
+                    + " | Request Parameters: " + studentId + " | Request Failed" + " | Server Response: " + course);
             return false;
         }
+    }
+
+
+    @Override
+    public boolean swapCourse(String studentId, String oldCourseId, String newCourseId, String dept) {
+        String studentIdPrefix = studentId.substring(0, 4);
+        if (studentId.equalsIgnoreCase(dept)) { // Same dept Call
+
+        } else { //UDP Call
+
+        }
+        return true;
+    }
+
+    private String enrollChecks(String courseId, Course course, String studentId, String term, HashMap<String, List<String>> courses) {
+        String idPrefix = studentId.substring(0, 4);
+        if (course.isCourseFull()) {
+            logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
+                    + " | Request Parameters: " + studentId + ", " + courseId + ", " + term + " | Request Failed"
+                    + " | Server Response: The course is full!");
+            return "The course is full!";
+        }
+
+        if (courseId.substring(0, 4).equals(idPrefix)) {
+            if (courses.containsKey(term)) {
+                List<String> termCourses = courses.get(term);
+                if (termCourses.size() == 3) {
+                    logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
+                            + " | Request Parameters: " + studentId + ", " + courseId + ", " + term
+                            + " | Request Failed"
+                            + " | Server Response: You have already reached your limit for this term!");
+                    return "You have already reached your limit for this term!";
+                }
+                for (String str : termCourses) {
+                    if (str.equals(courseId)) {
+                        logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
+                                + " | Request Parameters: " + studentId + ", " + courseId + ", " + term
+                                + " | Request Failed"
+                                + " | Server Response: You have already enrolled for this course!");
+                        return "You have already enrolled for this course!";
+                    }
+                }
+            }
+        }
+        return "No errors";
     }
 
     private Object udpCall(String dept) {
@@ -581,8 +601,13 @@ public class ServerOperations extends ServerPOA {
     protected String removeCourseUdp(String course_id, String term) {
         for (Entry<String, HashMap<String, List<String>>> theTerm : this.studentlist.entrySet()) {
             for (Entry<String, List<String>> courses : theTerm.getValue().entrySet()) {
-                List<String> coursesList = courses.getValue();
-                coursesList.remove(course_id);
+                String eachTerm = courses.getKey();
+                System.out.println("Each term: " + eachTerm);
+                System.out.println("Term: " + term);
+                if (eachTerm.equalsIgnoreCase(term)) {
+                    List<String> coursesList = courses.getValue();
+                    coursesList.remove(course_id);
+                }
             }
         }
         return "Removed Successfullly";
@@ -604,7 +629,6 @@ public class ServerOperations extends ServerPOA {
             }
             short[] seats = new short[seatsArray.size()];
             String[] course = new String[courseArray.size()];
-
 
             for (String item : courseArray) {
 //                course[counter++] = item;
