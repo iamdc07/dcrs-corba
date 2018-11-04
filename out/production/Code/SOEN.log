@@ -1367,3 +1367,4711 @@
   <message>The UDP server for SOEN is up and running on port 6791</message>
 </record>
 </log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T16:07:47</date>
+  <millis>1541016467593</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-31T16:07:47</date>
+  <millis>1541016467621</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T17:21:01</date>
+  <millis>1541020861983</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-31T17:21:02</date>
+  <millis>1541020862015</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-10-31T17:22:19</date>
+  <millis>1541020939701</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:22:19.685 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T17:22:44</date>
+  <millis>1541020964335</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:22:44.335 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE6320, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T17:25:02</date>
+  <millis>1541021102268</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:25:02.268 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-10-31T17:25:26</date>
+  <millis>1541021126221</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:25:26.221 | Request type: Drop Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Not enrolled in the Course</message>
+</record>
+<record>
+  <date>2018-10-31T17:25:37</date>
+  <millis>1541021137122</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:25:37.122 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE6320;,</message>
+</record>
+<record>
+  <date>2018-10-31T17:25:45</date>
+  <millis>1541021145301</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:25:45.301 | Request type: Drop Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:00</date>
+  <millis>1541021160076</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:26:00.076 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:03</date>
+  <millis>1541021163890</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:26:03.890 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:10</date>
+  <millis>1541021170765</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:26:10.765 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE6320;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:17</date>
+  <millis>1541021177580</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:26:17.580 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:21</date>
+  <millis>1541021181553</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:26:21.553 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN45, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:23</date>
+  <millis>1541021183416</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:26:23.416 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE6320;SOEN123;SOEN45;,</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:31</date>
+  <millis>1541021191217</millis>
+  <sequence>14</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T17:26:31.217 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Failed | Server Response: You have already reached your limit for this term!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T18:10:14</date>
+  <millis>1541023814360</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-31T18:10:14</date>
+  <millis>1541023814391</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T18:12:58</date>
+  <millis>1541023978582</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-31T18:12:58</date>
+  <millis>1541023978597</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T18:24:27</date>
+  <millis>1541024667882</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-31T18:24:27</date>
+  <millis>1541024667929</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T19:03:34</date>
+  <millis>1541027014358</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-31T19:03:34</date>
+  <millis>1541027014436</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-10-31T19:07:32</date>
+  <millis>1541027252609</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T19:07:32.609 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE6320, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T19:08:06</date>
+  <millis>1541027286221</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T19:08:06.221 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Failed | Server Response: The course is full!</message>
+</record>
+<record>
+  <date>2018-10-31T19:08:26</date>
+  <millis>1541027306150</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T19:08:26.150 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T19:08:37</date>
+  <millis>1541027317800</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T19:08:37.800 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: Course not found</message>
+</record>
+<record>
+  <date>2018-10-31T19:09:29</date>
+  <millis>1541027369005</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T19:09:29.005 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE6320;COMP123;,</message>
+</record>
+<record>
+  <date>2018-10-31T19:09:58</date>
+  <millis>1541027398081</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T19:09:58.081 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Failed | Server Response: Course not found</message>
+</record>
+<record>
+  <date>2018-10-31T19:10:24</date>
+  <millis>1541027424829</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T19:10:24.829 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE6320;COMP123;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T20:27:28</date>
+  <millis>1541032048745</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-10-31T20:27:28</date>
+  <millis>1541032048761</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:04</date>
+  <millis>1541032144813</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T20:29:04.797 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:24</date>
+  <millis>1541032164909</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T20:29:24.909 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:31</date>
+  <millis>1541032171392</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T20:29:31.392 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:34</date>
+  <millis>1541032174255</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T20:29:34.255 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:43</date>
+  <millis>1541032183505</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-10-31T20:29:43.505 | Request type: Swap Course | Request Parameters: SOENS1001, INSE6320, winter | Request Failed | Server Response: Course not found</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T16:48:57</date>
+  <millis>1541105337196</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-01T16:48:57</date>
+  <millis>1541105337275</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T16:58:29</date>
+  <millis>1541105909937</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-01T16:58:29</date>
+  <millis>1541105909952</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-01T16:59:22</date>
+  <millis>1541105962604</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T16:59:22.604 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-01T16:59:27</date>
+  <millis>1541105967463</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T16:59:27.463 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-01T16:59:32</date>
+  <millis>1541105972832</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T16:59:32.832 | Request type: Add Course | Request Parameters: SOENA1001, SOEN46, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-01T16:59:38</date>
+  <millis>1541105978321</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T16:59:38.321 | Request type: List Course Availability | Request Parameters: SOENA1001, winter | Request Completed | Server Response: CourseRegistrationApp.TermHolder@32d20296</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:24</date>
+  <millis>1541106024926</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:00:24.926 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:29</date>
+  <millis>1541106029086</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:00:29.086 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:37</date>
+  <millis>1541106037629</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:00:37.629 | Request type: Drop Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: Could not find the course.</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:44</date>
+  <millis>1541106044492</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:00:44.492 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:51</date>
+  <millis>1541106051414</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:00:51.414 | Request type: Drop Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: Could not find the course.</message>
+</record>
+<record>
+  <date>2018-11-01T17:01:10</date>
+  <millis>1541106070144</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:01:10.144 | Request type: Drop Course | Request Parameters: SOENS1001, COMP123, winter | Request Failed | Server Response: Could not find the course.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:22:08</date>
+  <millis>1541107328684</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-01T17:22:08</date>
+  <millis>1541107328699</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:04</date>
+  <millis>1541107444092</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:24:04.076 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:09</date>
+  <millis>1541107449162</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:24:09.162 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:12</date>
+  <millis>1541107452287</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:24:12.287 | Request type: List Course Availability | Request Parameters: SOENA1001, winter | Request Completed | Server Response: CourseRegistrationApp.TermHolder@32d20296</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:28</date>
+  <millis>1541107468407</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:24:28.407 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:39</date>
+  <millis>1541107479120</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:24:39.120 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:42</date>
+  <millis>1541107482061</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:24:42.061 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-01T17:25:16</date>
+  <millis>1541107516550</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:25:16.550 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-01T17:25:27</date>
+  <millis>1541107527404</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:25:27.404 | Request type: Drop Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-01T17:25:30</date>
+  <millis>1541107530498</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:25:30.498 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-01T17:26:31</date>
+  <millis>1541107591435</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:26:31.435 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:26:33</date>
+  <millis>1541107593122</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:26:33.122 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP45;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-01T17:26:57</date>
+  <millis>1541107617213</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:26:57.213 | Request type: Swap Course | Request Parameters: SOENS1001, COMP46, winter | Request Failed | Server Response: Course not found</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:12</date>
+  <millis>1541107632775</millis>
+  <sequence>14</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:27:12.775 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN45, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:15</date>
+  <millis>1541107635699</millis>
+  <sequence>15</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:27:15.699 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP45;SOEN123;SOEN45;,</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:45</date>
+  <millis>1541107665696</millis>
+  <sequence>16</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:27:45.696 | Request type: Add Course | Request Parameters: SOENA1001, SOEN46, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:52</date>
+  <millis>1541107672048</millis>
+  <sequence>17</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:27:52.048 | Request type: Drop Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:52</date>
+  <millis>1541107672048</millis>
+  <sequence>18</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:27:52.048 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Drop Request Completed | Server Response: Course found and Dropped</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:52</date>
+  <millis>1541107672048</millis>
+  <sequence>19</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:27:52.048 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN46, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:52</date>
+  <millis>1541107672048</millis>
+  <sequence>20</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:27:52.048 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN46, winter | Request Completed | Server Response: Successfully enrolled</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:57</date>
+  <millis>1541107677649</millis>
+  <sequence>21</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:27:57.649 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;SOEN123;SOEN45;SOEN46;,</message>
+</record>
+<record>
+  <date>2018-11-01T17:28:10</date>
+  <millis>1541107690877</millis>
+  <sequence>22</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:28:10.877 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Failed | Server Response: Course not found</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:36:58</date>
+  <millis>1541108218977</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-01T17:36:59</date>
+  <millis>1541108219008</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-01T17:38:21</date>
+  <millis>1541108301207</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:38:21.207 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:38:54</date>
+  <millis>1541108334575</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:38:54.575 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:38:57</date>
+  <millis>1541108337439</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:38:57.439 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;,</message>
+</record>
+<record>
+  <date>2018-11-01T17:39:11</date>
+  <millis>1541108351405</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:39:11.405 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: Course not found</message>
+</record>
+<record>
+  <date>2018-11-01T17:43:32</date>
+  <millis>1541108612053</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:43:32.053 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:44:52</date>
+  <millis>1541108692464</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-01T17:44:52</date>
+  <millis>1541108692479</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-01T17:46:29</date>
+  <millis>1541108789256</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:46:29.241 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:46:33</date>
+  <millis>1541108793578</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:46:33.578 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:46:48</date>
+  <millis>1541108808571</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:46:48.571 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: Course not found</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:50:19</date>
+  <millis>1541109019003</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-01T17:50:19</date>
+  <millis>1541109019018</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:19</date>
+  <millis>1541109139781</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:52:19.781 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:30</date>
+  <millis>1541109150377</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:52:30.377 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:32</date>
+  <millis>1541109152736</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:52:32.736 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;,</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:40</date>
+  <millis>1541109160631</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:52:40.631 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: Course not found</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:54</date>
+  <millis>1541109174070</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T17:52:54.070 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T18:01:20</date>
+  <millis>1541109680377</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-01T18:01:20</date>
+  <millis>1541109680392</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-01T18:03:36</date>
+  <millis>1541109816815</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T18:03:36.815 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T18:04:19</date>
+  <millis>1541109859469</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T18:04:19.469 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T18:04:35</date>
+  <millis>1541109875955</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T18:04:35.955 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;COMP123;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T18:05:27</date>
+  <millis>1541109927698</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-01T18:05:27</date>
+  <millis>1541109927713</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-01T18:07:20</date>
+  <millis>1541110040515</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T18:07:20.499 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T18:07:24</date>
+  <millis>1541110044872</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T18:07:24.872 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T18:07:33</date>
+  <millis>1541110053859</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T18:07:33.859 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: Course not found</message>
+</record>
+<record>
+  <date>2018-11-01T18:08:12</date>
+  <millis>1541110092255</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T18:08:12.255 | Request type: Swap Course | Request Parameters: SOENS1001, INSE45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-01T18:08:12</date>
+  <millis>1541110092270</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T18:08:12.270 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-01T18:08:18</date>
+  <millis>1541110098672</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T18:08:18.672 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;,</message>
+</record>
+<record>
+  <date>2018-11-01T18:08:55</date>
+  <millis>1541110135899</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-01T18:08:55.899 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T18:02:55</date>
+  <millis>1541282575884</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-03T18:02:55</date>
+  <millis>1541282575900</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-03T18:04:01</date>
+  <millis>1541282641450</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:04:01.435 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T18:04:05</date>
+  <millis>1541282645951</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:04:05.951 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T18:04:11</date>
+  <millis>1541282651832</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:04:11.832 | Request type: Add Course | Request Parameters: SOENA1001, SOEN46, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T18:05:37</date>
+  <millis>1541282737901</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:05:37.901 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T18:05:48</date>
+  <millis>1541282748112</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:05:48.112 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T18:05:50</date>
+  <millis>1541282750113</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:05:50.113 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;,</message>
+</record>
+<record>
+  <date>2018-11-03T18:06:04</date>
+  <millis>1541282764871</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:06:04.871 | Request type: Drop Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T18:06:04</date>
+  <millis>1541282764871</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:06:04.871 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Drop Request Completed | Server Response: Course found and Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T18:06:04</date>
+  <millis>1541282764887</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:06:04.887 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T18:06:04</date>
+  <millis>1541282764887</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:06:04.887 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed | Server Response: Successfully enrolled</message>
+</record>
+<record>
+  <date>2018-11-03T18:06:07</date>
+  <millis>1541282767512</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:06:07.512 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-03T18:06:37</date>
+  <millis>1541282797061</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:06:37.061 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Failed | Server Response: Course not found</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T18:11:32</date>
+  <millis>1541283092172</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-03T18:11:32</date>
+  <millis>1541283092187</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-03T18:12:34</date>
+  <millis>1541283154041</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:12:34.041 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T18:12:37</date>
+  <millis>1541283157804</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:12:37.804 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T18:34:08</date>
+  <millis>1541284448576</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-03T18:34:08</date>
+  <millis>1541284448607</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T18:34:30</date>
+  <millis>1541284470686</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-03T18:34:30</date>
+  <millis>1541284470702</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:14</date>
+  <millis>1541284874637</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:41:14.637 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:19</date>
+  <millis>1541284879382</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:41:19.382 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:28</date>
+  <millis>1541284888203</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:41:28.203 | Request type: Add Course | Request Parameters: SOENA1001, SOEN46, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:11</date>
+  <millis>1541284931844</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:42:11.844 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:17</date>
+  <millis>1541284937961</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:42:17.961 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:19</date>
+  <millis>1541284939430</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:42:19.430 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:35</date>
+  <millis>1541284955888</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:42:35.888 | Request type: Swap Course | Request Parameters: SOENS1001, INSE123, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:35</date>
+  <millis>1541284955888</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:42:35.888 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:39</date>
+  <millis>1541284959149</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:42:39.149 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;SOEN123;INSE123;,</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:51</date>
+  <millis>1541284971330</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:42:51.330 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:51</date>
+  <millis>1541284971345</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:42:51.345 | Request type: Swap Course | Request Parameters: SOENS1001, INSE123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:53</date>
+  <millis>1541284973799</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:42:53.799 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;SOEN123;COMP123;,</message>
+</record>
+<record>
+  <date>2018-11-03T18:43:03</date>
+  <millis>1541284983245</millis>
+  <sequence>14</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:43:03.245 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: Course not found</message>
+</record>
+<record>
+  <date>2018-11-03T18:43:55</date>
+  <millis>1541285035256</millis>
+  <sequence>15</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:43:55.256 | Request type: Drop Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed  | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T18:43:55</date>
+  <millis>1541285035256</millis>
+  <sequence>16</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:43:55.256 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Drop Request Completed | Server Response: Course found and Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T18:43:55</date>
+  <millis>1541285035256</millis>
+  <sequence>17</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:43:55.256 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN45, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T18:43:55</date>
+  <millis>1541285035256</millis>
+  <sequence>18</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:43:55.256 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN45, winter | Request Completed | Server Response: Successfully enrolled</message>
+</record>
+<record>
+  <date>2018-11-03T18:44:01</date>
+  <millis>1541285041218</millis>
+  <sequence>19</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:44:01.218 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;SOEN45;,</message>
+</record>
+<record>
+  <date>2018-11-03T18:44:13</date>
+  <millis>1541285053361</millis>
+  <sequence>20</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T18:44:13.361 | Request type: Swap Course | Request Parameters: SOENS1001, COMP46, winter | Request Failed | Server Response: Course not found</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:04:01</date>
+  <millis>1541286241958</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-03T19:04:02</date>
+  <millis>1541286242021</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-03T19:04:49</date>
+  <millis>1541286289836</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:04:49.821 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:04:58</date>
+  <millis>1541286298065</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:04:58.065 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:04</date>
+  <millis>1541286304328</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:05:04.328 | Request type: Add Course | Request Parameters: SOENA1001, SOEN46, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:37</date>
+  <millis>1541286337542</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:05:37.542 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:43</date>
+  <millis>1541286343650</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:05:43.650 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE13, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:45</date>
+  <millis>1541286345467</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:05:45.467 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE13;,</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:58</date>
+  <millis>1541286358431</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>14</thread>
+  <message>Date &amp; Time: 2018-11-03T19:05:58.431 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:58</date>
+  <millis>1541286358431</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:05:58.431 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:58</date>
+  <millis>1541286358447</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:05:58.447 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T19:06:02</date>
+  <millis>1541286362282</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:06:02.282 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE13;SOEN123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-03T19:08:00</date>
+  <millis>1541286480504</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:08:00.504 | Request type: Drop Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed  | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T19:08:02</date>
+  <millis>1541286482129</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:08:02.129 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE13;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-03T19:08:06</date>
+  <millis>1541286486830</millis>
+  <sequence>14</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:08:06.830 | Request type: Drop Course | Request Parameters: SOENS1001, SOEN123, winter | Request Failed  | Server Response: Student not enrolled</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:09:59</date>
+  <millis>1541286599153</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-03T19:09:59</date>
+  <millis>1541286599168</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:17</date>
+  <millis>1541286677974</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:11:17.958 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:27</date>
+  <millis>1541286687222</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:11:27.222 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:33</date>
+  <millis>1541286693326</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:11:33.326 | Request type: Add Course | Request Parameters: SOENA1001, SOEN46, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:02</date>
+  <millis>1541286722806</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:12:02.806 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:06</date>
+  <millis>1541286726213</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:12:06.213 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:10</date>
+  <millis>1541286730089</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:12:10.089 | Request type: Drop Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:16</date>
+  <millis>1541286736378</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:12:16.378 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:17</date>
+  <millis>1541286737909</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:12:17.909 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;,</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:26</date>
+  <millis>1541286746594</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>14</thread>
+  <message>Date &amp; Time: 2018-11-03T19:12:26.594 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:26</date>
+  <millis>1541286746594</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:12:26.594 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:26</date>
+  <millis>1541286746594</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:12:26.594 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:28</date>
+  <millis>1541286748651</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:12:28.651 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-03T19:13:25</date>
+  <millis>1541286805376</millis>
+  <sequence>14</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:13:25.376 | Request type: Swap Course | Request Parameters: SOENS1001, INSE45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:13:25</date>
+  <millis>1541286805376</millis>
+  <sequence>15</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:13:25.376 | Request type: Swap Course | Request Parameters: SOENS1001, INSE123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T19:13:27</date>
+  <millis>1541286807674</millis>
+  <sequence>16</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:13:27.674 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;SOEN123;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:26:49</date>
+  <millis>1541287609338</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-03T19:26:49</date>
+  <millis>1541287609353</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-03T19:27:31</date>
+  <millis>1541287651612</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:27:31.612 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:27:35</date>
+  <millis>1541287655879</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:27:35.879 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:27:41</date>
+  <millis>1541287661077</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:27:41.077 | Request type: Add Course | Request Parameters: SOENA1001, SOEN46, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:10</date>
+  <millis>1541287690933</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:28:10.933 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:21</date>
+  <millis>1541287701042</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:28:21.042 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:23</date>
+  <millis>1541287703105</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:28:23.105 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;,</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:32</date>
+  <millis>1541287712248</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>14</thread>
+  <message>Date &amp; Time: 2018-11-03T19:28:32.248 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:32</date>
+  <millis>1541287712248</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:28:32.248 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:32</date>
+  <millis>1541287712264</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:28:32.264 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:34</date>
+  <millis>1541287714202</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:28:34.202 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;SOEN123;SOEN123;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:30:56</date>
+  <millis>1541287856724</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-03T19:30:56</date>
+  <millis>1541287856740</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-03T19:31:22</date>
+  <millis>1541287882537</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:31:22.522 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:31:26</date>
+  <millis>1541287886028</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:31:26.028 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:31:31</date>
+  <millis>1541287891365</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:31:31.365 | Request type: Add Course | Request Parameters: SOENA1001, SOEN46, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:13</date>
+  <millis>1541287933573</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:32:13.573 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:18</date>
+  <millis>1541287938062</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:32:18.062 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:19</date>
+  <millis>1541287939504</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:32:19.504 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;,</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:27</date>
+  <millis>1541287947402</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>14</thread>
+  <message>Date &amp; Time: 2018-11-03T19:32:27.402 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:27</date>
+  <millis>1541287947402</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:32:27.402 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:27</date>
+  <millis>1541287947402</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:32:27.402 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:28</date>
+  <millis>1541287948668</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:32:28.668 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;SOEN123;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:34:56</date>
+  <millis>1541288096962</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-03T19:34:57</date>
+  <millis>1541288097025</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-03T19:35:30</date>
+  <millis>1541288130235</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:35:30.235 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:35:36</date>
+  <millis>1541288136471</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:35:36.471 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:09</date>
+  <millis>1541288169380</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:09.380 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:14</date>
+  <millis>1541288174653</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:14.653 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:17</date>
+  <millis>1541288177108</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:17.108 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;,</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:23</date>
+  <millis>1541288183192</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>14</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:23.192 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:23</date>
+  <millis>1541288183192</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:23.192 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:23</date>
+  <millis>1541288183207</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:23.207 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:25</date>
+  <millis>1541288185087</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:25.087 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:42</date>
+  <millis>1541288202455</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:42.455 | Request type: Swap Course | Request Parameters: SOENS1001, INSE45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:42</date>
+  <millis>1541288202455</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:42.455 | Request type: Swap Course | Request Parameters: SOENS1001, INSE123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:43</date>
+  <millis>1541288203924</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:43.924 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;SOEN123;INSE45;,</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:55</date>
+  <millis>1541288215758</millis>
+  <sequence>14</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:55.758 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:55</date>
+  <millis>1541288215773</millis>
+  <sequence>15</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:55.773 | Request type: Swap Course | Request Parameters: SOENS1001, INSE45, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:57</date>
+  <millis>1541288217302</millis>
+  <sequence>16</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-03T19:36:57.302 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;SOEN123;COMP45;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T00:06:48</date>
+  <millis>1541304408331</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-04T00:06:48</date>
+  <millis>1541304408362</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-04T00:08:32</date>
+  <millis>1541304512800</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T00:08:32.800 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE6320, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T00:08:42</date>
+  <millis>1541304522065</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T00:08:42.065 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T00:08:45</date>
+  <millis>1541304525786</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T00:08:45.786 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T00:08:59</date>
+  <millis>1541304539145</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T00:08:59.145 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:05</date>
+  <millis>1541304545261</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T00:09:05.261 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:17</date>
+  <millis>1541304557133</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T00:09:17.133 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:19</date>
+  <millis>1541304559066</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T00:09:19.066 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE6320;COMP123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:39</date>
+  <millis>1541304579858</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T00:09:39.858 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:39</date>
+  <millis>1541304579858</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>15</thread>
+  <message>Date &amp; Time: 2018-11-04T00:09:39.858 | Request type: Drop Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed  | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:39</date>
+  <millis>1541304579858</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T00:09:39.858 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:43</date>
+  <millis>1541304583196</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T00:09:43.196 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE6320;COMP123;COMP45;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T01:27:37</date>
+  <millis>1541309257275</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-04T01:27:37</date>
+  <millis>1541309257290</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-04T01:29:48</date>
+  <millis>1541309388409</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:29:48.409 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T01:30:00</date>
+  <millis>1541309400808</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:30:00.808 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T01:30:12</date>
+  <millis>1541309412545</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:30:12.545 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE6320, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:30:17</date>
+  <millis>1541309417584</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:30:17.584 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:30:21</date>
+  <millis>1541309421792</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:30:21.792 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:17</date>
+  <millis>1541309477546</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:31:17.546 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:20</date>
+  <millis>1541309480494</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:31:20.494 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE6320;COMP123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:36</date>
+  <millis>1541309496802</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:31:36.802 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:36</date>
+  <millis>1541309496802</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:31:36.802 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:36</date>
+  <millis>1541309496817</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>14</thread>
+  <message>Date &amp; Time: 2018-11-04T01:31:36.817 | Request type: Drop Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed  | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:36</date>
+  <millis>1541309496817</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:31:36.817 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:39</date>
+  <millis>1541309499866</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:31:39.866 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE6320;COMP123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T01:40:35</date>
+  <millis>1541310035300</millis>
+  <sequence>14</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enrollChecks</method>
+  <thread>15</thread>
+  <message>Date &amp; Time: 2018-11-04T01:40:35.300 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Failed | Server Response: You have already reached your limit for this term!</message>
+</record>
+<record>
+  <date>2018-11-04T01:41:03</date>
+  <millis>1541310063630</millis>
+  <sequence>15</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enrollChecks</method>
+  <thread>16</thread>
+  <message>Date &amp; Time: 2018-11-04T01:41:03.630 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Failed | Server Response: You have already reached your limit for this term!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T01:43:27</date>
+  <millis>1541310207086</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-04T01:43:27</date>
+  <millis>1541310207102</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-04T01:44:18</date>
+  <millis>1541310258487</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:44:18.487 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T01:44:24</date>
+  <millis>1541310264921</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:44:24.921 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T01:44:53</date>
+  <millis>1541310293232</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:44:53.232 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:44:58</date>
+  <millis>1541310298924</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:44:58.924 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:02</date>
+  <millis>1541310302141</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:45:02.141 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:09</date>
+  <millis>1541310309161</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:45:09.161 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:20</date>
+  <millis>1541310320822</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:45:20.822 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:20</date>
+  <millis>1541310320822</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:45:20.822 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:20</date>
+  <millis>1541310320837</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>14</thread>
+  <message>Date &amp; Time: 2018-11-04T01:45:20.837 | Request type: Drop Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed  | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:20</date>
+  <millis>1541310320837</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:45:20.837 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:33</date>
+  <millis>1541310333101</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:45:33.101 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;COMP123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:44</date>
+  <millis>1541310344650</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enrollChecks</method>
+  <thread>15</thread>
+  <message>Date &amp; Time: 2018-11-04T01:45:44.650 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Failed | Server Response: You have already reached your limit for this term!</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:55</date>
+  <millis>1541310355469</millis>
+  <sequence>14</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:45:55.469 | Request type: Drop Course | Request Parameters: SOENS1001, INSE123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:59</date>
+  <millis>1541310359286</millis>
+  <sequence>15</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:45:59.286 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:05</date>
+  <millis>1541310365567</millis>
+  <sequence>16</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:46:05.567 | Request type: Drop Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:07</date>
+  <millis>1541310367987</millis>
+  <sequence>17</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:46:07.987 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:12</date>
+  <millis>1541310372410</millis>
+  <sequence>18</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:46:12.410 | Request type: Drop Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:14</date>
+  <millis>1541310374904</millis>
+  <sequence>19</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:46:14.904 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;,</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:21</date>
+  <millis>1541310381214</millis>
+  <sequence>20</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:46:21.214 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:29</date>
+  <millis>1541310389210</millis>
+  <sequence>21</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:46:29.210 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:35</date>
+  <millis>1541310395696</millis>
+  <sequence>22</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:46:35.696 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:37</date>
+  <millis>1541310397540</millis>
+  <sequence>23</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:46:37.540 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;SOEN123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:53</date>
+  <millis>1541310413661</millis>
+  <sequence>24</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:46:53.661 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:53</date>
+  <millis>1541310413661</millis>
+  <sequence>25</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:46:53.661 | Request type: Swap Course | Request Parameters: SOENS1001, INSE123, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:53</date>
+  <millis>1541310413661</millis>
+  <sequence>26</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:46:53.661 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:56</date>
+  <millis>1541310416716</millis>
+  <sequence>27</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:46:56.716 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;SOEN123;COMP45;INSE123;,</message>
+</record>
+<record>
+  <date>2018-11-04T01:47:11</date>
+  <millis>1541310431703</millis>
+  <sequence>28</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:47:11.703 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T01:47:11</date>
+  <millis>1541310431719</millis>
+  <sequence>29</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:47:11.719 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:47:11</date>
+  <millis>1541310431719</millis>
+  <sequence>30</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>16</thread>
+  <message>Date &amp; Time: 2018-11-04T01:47:11.719 | Request type: Drop Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed  | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:47:11</date>
+  <millis>1541310431719</millis>
+  <sequence>31</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:47:11.719 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:47:13</date>
+  <millis>1541310433958</millis>
+  <sequence>32</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T01:47:13.958 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP45;INSE123;COMP123;,</message>
+</record>
+<record>
+  <date>2018-11-04T01:47:28</date>
+  <millis>1541310448693</millis>
+  <sequence>33</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enrollChecks</method>
+  <thread>17</thread>
+  <message>Date &amp; Time: 2018-11-04T01:47:28.693 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Failed | Server Response: You have already reached your limit for this term!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T12:36:20</date>
+  <millis>1541352980917</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-04T12:36:21</date>
+  <millis>1541352981002</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-04T12:37:40</date>
+  <millis>1541353060483</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:37:40.467 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T12:37:44</date>
+  <millis>1541353064644</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:37:44.644 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T12:38:55</date>
+  <millis>1541353135472</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:38:55.472 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Failed | Server Response: Could not find the course!</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:19</date>
+  <millis>1541353159611</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:39:19.611 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, inse123 | Request Failed | Server Response: Could not find the course!</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:23</date>
+  <millis>1541353163653</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:39:23.653 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:26</date>
+  <millis>1541353166951</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:39:26.951 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:29</date>
+  <millis>1541353169545</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:39:29.545 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;COMP123;,</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:35</date>
+  <millis>1541353175095</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:39:35.095 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:47</date>
+  <millis>1541353187792</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:39:47.792 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T12:40:04</date>
+  <millis>1541353204169</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:40:04.169 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;COMP123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-04T12:40:55</date>
+  <millis>1541353255858</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:40:55.858 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T12:47:23</date>
+  <millis>1541353643459</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-04T12:47:23</date>
+  <millis>1541353643490</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-04T12:48:39</date>
+  <millis>1541353719724</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:48:39.708 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T12:48:45</date>
+  <millis>1541353725022</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:48:45.022 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T12:48:56</date>
+  <millis>1541353736943</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:48:56.943 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Failed | Server Response: Could not find the course!</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:06</date>
+  <millis>1541353746674</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:49:06.674 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE6320, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:11</date>
+  <millis>1541353751925</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:49:11.925 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:15</date>
+  <millis>1541353755692</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:49:15.692 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:22</date>
+  <millis>1541353762179</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:49:22.179 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:24</date>
+  <millis>1541353764835</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:49:24.835 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE6320;COMP123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:54</date>
+  <millis>1541353794091</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:49:54.091 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:54</date>
+  <millis>1541353794106</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:49:54.106 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:56</date>
+  <millis>1541353796482</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:49:56.482 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE6320;SOEN123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T12:50:19</date>
+  <millis>1541353819982</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:50:19.982 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T12:50:42</date>
+  <millis>1541353842229</millis>
+  <sequence>14</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:50:42.229 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE6320;SOEN123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T12:50:57</date>
+  <millis>1541353857946</millis>
+  <sequence>15</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:50:57.946 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T12:51:09</date>
+  <millis>1541353869869</millis>
+  <sequence>16</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:51:09.869 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T12:51:15</date>
+  <millis>1541353875339</millis>
+  <sequence>17</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:51:15.339 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE6320;SOEN123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T12:51:33</date>
+  <millis>1541353893860</millis>
+  <sequence>18</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:51:33.860 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T12:53:25</date>
+  <millis>1541354005382</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-04T12:53:25</date>
+  <millis>1541354005397</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-04T12:53:58</date>
+  <millis>1541354038305</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:53:58.305 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:05</date>
+  <millis>1541354045125</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:54:05.125 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:36</date>
+  <millis>1541354076922</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:54:36.922 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:41</date>
+  <millis>1541354081047</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:54:41.047 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:45</date>
+  <millis>1541354085524</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:54:45.524 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:48</date>
+  <millis>1541354088597</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:54:48.597 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:49</date>
+  <millis>1541354089926</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:54:49.926 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;COMP123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-04T12:55:04</date>
+  <millis>1541354104952</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:55:04.952 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:55:04</date>
+  <millis>1541354104968</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:55:04.968 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T12:55:07</date>
+  <millis>1541354107223</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T12:55:07.223 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;SOEN123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T12:55:24</date>
+  <millis>1541354124371</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enrollChecks</method>
+  <thread>15</thread>
+  <message>Date &amp; Time: 2018-11-04T12:55:24.371 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN45, winter | Request Failed | Server Response: You have already reached your limit for this term!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T13:39:38</date>
+  <millis>1541356778853</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-04T13:39:38</date>
+  <millis>1541356778900</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:14</date>
+  <millis>1541356814053</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:40:14.038 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:19</date>
+  <millis>1541356819297</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:40:19.297 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:39</date>
+  <millis>1541356839007</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:40:39.007 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:42</date>
+  <millis>1541356842768</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:40:42.768 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:46</date>
+  <millis>1541356846748</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:40:46.748 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:53</date>
+  <millis>1541356853728</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:40:53.728 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:55</date>
+  <millis>1541356855185</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:40:55.185 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:15</date>
+  <millis>1541356875092</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:41:15.092 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:15</date>
+  <millis>1541356875092</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:41:15.092 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:17</date>
+  <millis>1541356877093</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:41:17.093 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;SOEN123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:40</date>
+  <millis>1541356900903</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:41:40.903 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:42</date>
+  <millis>1541356902528</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:41:42.528 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;SOEN123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T13:42:12</date>
+  <millis>1541356932625</millis>
+  <sequence>14</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:42:12.625 | Request type: Drop Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed  | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T13:42:12</date>
+  <millis>1541356932625</millis>
+  <sequence>15</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:42:12.625 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Drop Request Completed | Server Response: Course found and Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T13:42:12</date>
+  <millis>1541356932625</millis>
+  <sequence>16</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:42:12.625 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN45, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:42:12</date>
+  <millis>1541356932625</millis>
+  <sequence>17</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:42:12.625 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN45, winter | Request Completed | Server Response: Successfully enrolled</message>
+</record>
+<record>
+  <date>2018-11-04T13:42:15</date>
+  <millis>1541356935735</millis>
+  <sequence>18</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:42:15.735 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;COMP45;SOEN45;,</message>
+</record>
+<record>
+  <date>2018-11-04T13:42:38</date>
+  <millis>1541356958246</millis>
+  <sequence>19</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enrollChecks</method>
+  <thread>15</thread>
+  <message>Date &amp; Time: 2018-11-04T13:42:38.246 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Failed | Server Response: You have already reached your limit for this term!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T13:55:58</date>
+  <millis>1541357758488</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-04T13:55:58</date>
+  <millis>1541357758503</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-04T13:56:45</date>
+  <millis>1541357805980</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:56:45.964 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T13:56:50</date>
+  <millis>1541357810955</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:56:50.955 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:22</date>
+  <millis>1541357842929</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:57:22.929 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:30</date>
+  <millis>1541357850435</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:57:30.435 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:35</date>
+  <millis>1541357855608</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:57:35.608 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:42</date>
+  <millis>1541357862131</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T13:57:42.131 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;COMP123;COMP45;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T15:18:19</date>
+  <millis>1541362699329</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-04T15:18:19</date>
+  <millis>1541362699360</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-04T15:18:55</date>
+  <millis>1541362735358</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:18:55.358 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T15:19:02</date>
+  <millis>1541362742061</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:19:02.061 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T15:19:09</date>
+  <millis>1541362749434</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:19:09.434 | Request type: Add Course | Request Parameters: SOENA1001, SOEN46, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:07</date>
+  <millis>1541362807573</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:20:07.573 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:16</date>
+  <millis>1541362816625</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:20:16.625 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:24</date>
+  <millis>1541362824525</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:20:24.525 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:30</date>
+  <millis>1541362830670</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:20:30.670 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:33</date>
+  <millis>1541362833122</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:20:33.122 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;COMP123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:41</date>
+  <millis>1541362841764</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:20:41.764 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:41</date>
+  <millis>1541362841764</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:20:41.764 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:43</date>
+  <millis>1541362843171</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:20:43.171 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;SOEN123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:52</date>
+  <millis>1541362852632</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:20:52.632 | Request type: Swap Course | Request Parameters: SOENS1001, INSE45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:52</date>
+  <millis>1541362852632</millis>
+  <sequence>14</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:20:52.632 | Request type: Swap Course | Request Parameters: SOENS1001, INSE123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:54</date>
+  <millis>1541362854507</millis>
+  <sequence>15</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T15:20:54.507 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;SOEN123;COMP45;INSE45;,</message>
+</record>
+<record>
+  <date>2018-11-04T15:21:03</date>
+  <millis>1541362863336</millis>
+  <sequence>16</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enrollChecks</method>
+  <thread>15</thread>
+  <message>Date &amp; Time: 2018-11-04T15:21:03.336 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN45, winter | Request Failed | Server Response: You have already reached your limit for this term!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T15:58:05</date>
+  <millis>1541365085204</millis>
+  <sequence>0</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: SOEN</message>
+</record>
+<record>
+  <date>2018-11-04T15:58:05</date>
+  <millis>1541365085219</millis>
+  <sequence>1</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for SOEN is up and running on port 6791</message>
+</record>
+<record>
+  <date>2018-11-04T16:00:00</date>
+  <millis>1541365200077</millis>
+  <sequence>2</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:00:00.077 | Request type: Add Course | Request Parameters: SOENA1001, SOEN123, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T16:00:12</date>
+  <millis>1541365212994</millis>
+  <sequence>3</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:00:12.994 | Request type: List Course Availability | Request Parameters: SOENA1001, winter | Request Completed | Server Response: CourseRegistrationApp.TermHolder@3e3a00c5</message>
+</record>
+<record>
+  <date>2018-11-04T16:00:24</date>
+  <millis>1541365224644</millis>
+  <sequence>4</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:00:24.644 | Request type: Add Course | Request Parameters: SOENA1001, SOEN45, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:01</date>
+  <millis>1541365261879</millis>
+  <sequence>5</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:01:01.879 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:05</date>
+  <millis>1541365265177</millis>
+  <sequence>6</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:01:05.177 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:09</date>
+  <millis>1541365269520</millis>
+  <sequence>7</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:01:09.520 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:13</date>
+  <millis>1541365273340</millis>
+  <sequence>8</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:01:13.324 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN123, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:15</date>
+  <millis>1541365275544</millis>
+  <sequence>9</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:01:15.544 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;COMP123;INSE123;SOEN123;,</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:23</date>
+  <millis>1541365283289</millis>
+  <sequence>10</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:01:23.289 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:23</date>
+  <millis>1541365283304</millis>
+  <sequence>11</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:01:23.304 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:25</date>
+  <millis>1541365285070</millis>
+  <sequence>12</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:01:25.070 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;SOEN123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:38</date>
+  <millis>1541365298651</millis>
+  <sequence>13</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:01:38.651 | Request type: Enroll Course | Request Parameters: SOENS1001, INSE45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:54</date>
+  <millis>1541365314062</millis>
+  <sequence>14</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:01:54.062 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;SOEN123;COMP45;,</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:03</date>
+  <millis>1541365323651</millis>
+  <sequence>15</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>14</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:03.651 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN45, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:03</date>
+  <millis>1541365323651</millis>
+  <sequence>16</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:03.651 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:03</date>
+  <millis>1541365323651</millis>
+  <sequence>17</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:03.651 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:05</date>
+  <millis>1541365325364</millis>
+  <sequence>18</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:05.364 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;INSE123;SOEN123;SOEN45;,</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:18</date>
+  <millis>1541365338932</millis>
+  <sequence>19</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:18.917 | Request type: Add Course | Request Parameters: SOENA1001, SOEN46, winter | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:27</date>
+  <millis>1541365347240</millis>
+  <sequence>20</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>15</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:27.240 | Request type: Enroll Course | Request Parameters: SOENS1001, SOEN46, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:27</date>
+  <millis>1541365347240</millis>
+  <sequence>21</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:27.240 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN46, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:27</date>
+  <millis>1541365347240</millis>
+  <sequence>22</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:27.240 | Request type: Swap Course | Request Parameters: SOENS1001, INSE123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:29</date>
+  <millis>1541365349170</millis>
+  <sequence>23</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:29.170 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;SOEN123;SOEN45;SOEN46;,</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:36</date>
+  <millis>1541365356431</millis>
+  <sequence>24</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:36.431 | Request type: Swap Course | Request Parameters: SOENS1001, COMP123, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:36</date>
+  <millis>1541365356447</millis>
+  <sequence>25</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>16</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:36.447 | Request type: Drop Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed  | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:36</date>
+  <millis>1541365356447</millis>
+  <sequence>26</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:36.447 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:45</date>
+  <millis>1541365365371</millis>
+  <sequence>27</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:45.371 | Request type: Swap Course | Request Parameters: SOENS1001, INSE123, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:45</date>
+  <millis>1541365365371</millis>
+  <sequence>28</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>17</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:45.371 | Request type: Drop Course | Request Parameters: SOENS1001, SOEN45, winter | Request Completed  | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:45</date>
+  <millis>1541365365387</millis>
+  <sequence>29</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:45.387 | Request type: Swap Course | Request Parameters: SOENS1001, SOEN45, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:46</date>
+  <millis>1541365366778</millis>
+  <sequence>30</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:02:46.778 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;SOEN46;COMP123;INSE123;,</message>
+</record>
+<record>
+  <date>2018-11-04T16:03:03</date>
+  <millis>1541365383384</millis>
+  <sequence>31</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>udpEnrollChecks</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:03:03.384 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T16:03:09</date>
+  <millis>1541365389627</millis>
+  <sequence>32</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:03:09.627 | Request type: Swap Course | Request Parameters: SOENS1001, INSE45, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:03:09</date>
+  <millis>1541365389643</millis>
+  <sequence>33</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:03:09.643 | Request type: Swap Course | Request Parameters: SOENS1001, INSE123, winter | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T16:03:30</date>
+  <millis>1541365410283</millis>
+  <sequence>34</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:03:30.283 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;SOEN46;COMP123;,</message>
+</record>
+<record>
+  <date>2018-11-04T16:05:29</date>
+  <millis>1541365529560</millis>
+  <sequence>36</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:05:29.560 | Request type: Get Class Schedule | Request Parameters: SOENS1001 | Request Completed | Server Response: winter;SOEN46;COMP123;,</message>
+</record>
+<record>
+  <date>2018-11-04T16:05:42</date>
+  <millis>1541365542804</millis>
+  <sequence>37</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:05:42.804 | Request type: Swap Course | Request Parameters: SOENS1001, INSE123, winter | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:05:42</date>
+  <millis>1541365542820</millis>
+  <sequence>38</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:05:42.820 | Request type: Swap Course | Request Parameters: SOENS1001, COMP45, winter | Request Failed | Server Response: Student not enrolled in the course</message>
+</record>
+<record>
+  <date>2018-11-04T16:05:42</date>
+  <millis>1541365542820</millis>
+  <sequence>39</sequence>
+  <logger>SOEN Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-04T16:05:42.820 | Request type: Swap Course | Request Parameters: SOENS1001, INSE123, winter | Request Failed | Server Response: Dropped the newly enrolled course</message>
+</record>
+</log>

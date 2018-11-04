@@ -2,19 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33517237-a358-438f-8021-c85e2c1ecf4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/COMP.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/COMP.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/COMP.log.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/CourseRegistrationApp/ServerOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/CourseRegistrationApp/ServerOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/CourseRegistrationApp/ServerPOA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/CourseRegistrationApp/ServerPOA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/CourseRegistrationApp/_ServerStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/CourseRegistrationApp/_ServerStub.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/INSE.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/INSE.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/INSE.log.lck" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/SOEN.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/SOEN.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code/advisor/AdvisorOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/advisor/AdvisorOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/SOEN.log.lck" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/dcrs.idl" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/dcrs.idl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/orb.db/NC0" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/orb.db/NC0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code/server/ServerInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/schema/UdpPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/schema/UdpPacket.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/server/ServerOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/server/ServerOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code/student/StudentOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/server/UdpServerProc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/server/UdpServerProc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/student/StudentOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/student/StudentOperations.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/userlogs/COMPA1001.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/userlogs/COMPA1001.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/userlogs/COMPS1001.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/userlogs/COMPS1001.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/userlogs/INSEA1001.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/userlogs/INSEA1001.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/userlogs/INSES1001.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/userlogs/INSES1001.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/userlogs/SOENA1001.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/userlogs/SOENA1001.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/userlogs/SOENS1001.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/userlogs/SOENS1001.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CourseRegistrationApp/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseRegistrationApp/Course.java" afterDir="false" />
@@ -32,12 +40,12 @@
       <change beforePath="$PROJECT_DIR$/src/CourseRegistrationApp/TermHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseRegistrationApp/TermHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CourseRegistrationApp/TermHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseRegistrationApp/TermHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CourseRegistrationApp/_ServerStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseRegistrationApp/_ServerStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/advisor/AdvisorOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/advisor/AdvisorOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dcrs.idl" beforeDir="false" afterPath="$PROJECT_DIR$/src/dcrs.idl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/orb.db/NC0" beforeDir="false" afterPath="$PROJECT_DIR$/src/orb.db/NC0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/ServerInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schema/UdpPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/UdpPacket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/ServerOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ServerOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/UdpServerProc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/UdpServerProc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/student/StudentOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/StudentOperations.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -100,35 +108,38 @@
     <session id="516157728">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="idl" value="4" />
-          <entry key="java" value="33" />
+          <entry key="idl" value="6" />
+          <entry key="java" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDL" value="4" />
-          <entry key="JAVA" value="33" />
+          <entry key="IDL" value="6" />
+          <entry key="JAVA" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="idl" value="723" />
-          <entry key="java" value="5745" />
+          <entry key="idl" value="809" />
+          <entry key="java" value="9594" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="IDL" value="723" />
-          <entry key="JAVA" value="5745" />
+          <entry key="IDL" value="809" />
+          <entry key="JAVA" value="9594" />
         </counts>
       </usages-collector>
     </session>
@@ -138,22 +149,50 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/ServerOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="609" column="17" selection-start-line="609" selection-start-column="17" selection-end-line="609" selection-end-column="17" />
+            <state relative-caret-position="128">
+              <caret line="670" column="21" selection-start-line="670" selection-start-column="21" selection-end-line="670" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#advisor_exists#0;class#ServerOperations#0" />
                 <element signature="method#student_exists#0;class#ServerOperations#0" />
-                <element signature="method#enroll#0;class#ServerOperations#0" />
                 <element signature="method#addCourse#0;class#ServerOperations#0" />
                 <element signature="method#dropCourse#0;class#ServerOperations#0" />
+                <element signature="method#removeCourse#0;class#ServerOperations#0" />
                 <element signature="method#listCourseAvailability#0;class#ServerOperations#0" />
-                <element signature="method#enrollChecks#0;class#ServerOperations#0" />
+                <element signature="method#getClassSchedule#0;class#ServerOperations#0" />
+                <element signature="method#enrollToStudentList#0;class#ServerOperations#0" />
+                <element signature="method#dropFromStudentList#0;class#ServerOperations#0" />
                 <element signature="method#udpCall#0;class#ServerOperations#0" />
-                <element signature="method#listCourseAvailabilityUdp#0;class#ServerOperations#0" />
-                <element signature="method#display_courses#0;class#ServerOperations#0" />
-                <element signature="method#serialize#0;class#ServerOperations#0" />
-                <element signature="method#deserialize#0;class#ServerOperations#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/schema/UdpPacket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dcrs.idl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-306">
+              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,8 +201,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/student/StudentOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+            <state relative-caret-position="432">
+              <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,19 +211,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dcrs.idl">
+        <entry file="file://$PROJECT_DIR$/src/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+            <state relative-caret-position="1170">
+              <caret line="65" column="84" lean-forward="true" selection-start-line="65" selection-start-column="84" selection-end-line="65" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/advisor/AdvisorOperations.java">
+        <entry file="file://$PROJECT_DIR$/src/server/UdpServerProc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
+            <state relative-caret-position="216">
+              <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,8 +254,14 @@
       <find>addcou</find>
       <find>short</find>
       <find>listcourse</find>
-      <find>enroll</find>
       <find>removeCourseudp</find>
+      <find>coursesAvailable</find>
+      <find>enrollChecks</find>
+      <find>enrollchec</find>
+      <find>swap</find>
+      <find>swapC</find>
+      <find>enroll</find>
+      <find>udpPacket = new UdpPacket(1, newCourseId, studentId, term, newCourseId.substring(0, 4),</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -227,10 +275,12 @@
         <option value="$PROJECT_DIR$/src/client/UdpPacket.java" />
         <option value="$PROJECT_DIR$/src/server/ServerInterface.java" />
         <option value="$PROJECT_DIR$/src/server/Server.java" />
-        <option value="$PROJECT_DIR$/src/server/UdpServerProc.java" />
-        <option value="$PROJECT_DIR$/src/client/Client.java" />
         <option value="$PROJECT_DIR$/src/advisor/AdvisorOperations.java" />
+        <option value="$PROJECT_DIR$/src/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/CourseRegistrationApp/ServerOperations.java" />
         <option value="$PROJECT_DIR$/src/dcrs.idl" />
+        <option value="$PROJECT_DIR$/src/schema/UdpPacket.java" />
+        <option value="$PROJECT_DIR$/src/server/UdpServerProc.java" />
         <option value="$PROJECT_DIR$/src/student/StudentOperations.java" />
         <option value="$PROJECT_DIR$/src/server/ServerOperations.java" />
       </list>
@@ -243,15 +293,116 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="width" value="883" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Hibernate</id>
+          </State>
+          <State>
+            <id>InitializationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>JPA</id>
+          </State>
+          <State>
+            <id>JSON and JSON5</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>UI Form</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -326,12 +477,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="settings&#9;ACTION&#9;Database.Settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Code" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -351,9 +501,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21006711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20604026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -385,13 +534,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/schema/UdpPacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/schema/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -435,37 +577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CourseRegistrationApp/CoursesHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CourseRegistrationApp/ServerPOA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2268">
-          <caret line="126" column="96" selection-start-line="126" selection-start-column="96" selection-end-line="126" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3402">
-          <caret line="189" column="5" selection-start-line="189" selection-start-column="5" selection-end-line="189" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -476,13 +591,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/UdpServerProc.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="226">
+          <caret line="522" column="19" selection-start-line="522" selection-start-column="19" selection-end-line="522" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseRegistrationApp/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -496,31 +615,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CourseRegistrationApp/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/CourseRegistrationApp/CoursesHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CourseRegistrationApp/_ServerStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="84" lean-forward="true" selection-start-line="65" selection-start-column="84" selection-end-line="65" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CourseRegistrationApp/ServerOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="252">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dcrs.idl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+        <state relative-caret-position="300">
+          <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schema/UdpPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/UdpServerProc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/student/StudentOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        <state relative-caret-position="432">
+          <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -529,22 +692,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/ServerOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="609" column="17" selection-start-line="609" selection-start-column="17" selection-end-line="609" selection-end-column="17" />
+        <state relative-caret-position="128">
+          <caret line="670" column="21" selection-start-line="670" selection-start-column="21" selection-end-line="670" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#advisor_exists#0;class#ServerOperations#0" />
             <element signature="method#student_exists#0;class#ServerOperations#0" />
-            <element signature="method#enroll#0;class#ServerOperations#0" />
             <element signature="method#addCourse#0;class#ServerOperations#0" />
             <element signature="method#dropCourse#0;class#ServerOperations#0" />
+            <element signature="method#removeCourse#0;class#ServerOperations#0" />
             <element signature="method#listCourseAvailability#0;class#ServerOperations#0" />
-            <element signature="method#enrollChecks#0;class#ServerOperations#0" />
+            <element signature="method#getClassSchedule#0;class#ServerOperations#0" />
+            <element signature="method#enrollToStudentList#0;class#ServerOperations#0" />
+            <element signature="method#dropFromStudentList#0;class#ServerOperations#0" />
             <element signature="method#udpCall#0;class#ServerOperations#0" />
-            <element signature="method#listCourseAvailabilityUdp#0;class#ServerOperations#0" />
-            <element signature="method#display_courses#0;class#ServerOperations#0" />
-            <element signature="method#serialize#0;class#ServerOperations#0" />
-            <element signature="method#deserialize#0;class#ServerOperations#0" />
           </folding>
         </state>
       </provider>

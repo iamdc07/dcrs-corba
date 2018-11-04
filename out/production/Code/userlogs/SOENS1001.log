@@ -565,3 +565,5439 @@
   <message>2018-10-28T23:45:27.434Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
 </record>
 </log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T17:22:12</date>
+  <millis>1541020932910</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:22:12.895 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T17:22:19</date>
+  <millis>1541020939701</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:22:19.701 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T17:22:41</date>
+  <millis>1541020961927</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:22:41.927 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T17:22:44</date>
+  <millis>1541020964335</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:22:44.335 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T17:22:50</date>
+  <millis>1541020970611</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:22:50.611 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T17:23:21</date>
+  <millis>1541021001965</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:23:21.965 Response from Server: You have already enrolled for this course!</message>
+</record>
+<record>
+  <date>2018-10-31T17:25:00</date>
+  <millis>1541021100685</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:25:00.670 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T17:25:02</date>
+  <millis>1541021102284</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:25:02.284 Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-10-31T17:25:22</date>
+  <millis>1541021122971</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:25:22.971 Operation: Drop Course</message>
+</record>
+<record>
+  <date>2018-10-31T17:25:26</date>
+  <millis>1541021126221</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>dropCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:25:26.221 Response from Server: Not enrolled in the Course</message>
+</record>
+<record>
+  <date>2018-10-31T17:25:37</date>
+  <millis>1541021137122</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:25:37.122 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-10-31T17:25:37</date>
+  <millis>1541021137122</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:25:37.122Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-10-31T17:25:43</date>
+  <millis>1541021143706</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:25:43.706 Operation: Drop Course</message>
+</record>
+<record>
+  <date>2018-10-31T17:25:45</date>
+  <millis>1541021145301</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>dropCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:25:45.301 Response from Server: Course Dropped</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:02</date>
+  <millis>1541021162843</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:02.843 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:03</date>
+  <millis>1541021163890</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:03.890 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:10</date>
+  <millis>1541021170765</millis>
+  <sequence>16</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:10.765 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:10</date>
+  <millis>1541021170765</millis>
+  <sequence>17</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:10.765Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:20</date>
+  <millis>1541021180426</millis>
+  <sequence>18</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:20.426 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:21</date>
+  <millis>1541021181553</millis>
+  <sequence>19</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:21.553 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:23</date>
+  <millis>1541021183416</millis>
+  <sequence>20</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:23.416 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:23</date>
+  <millis>1541021183416</millis>
+  <sequence>21</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:23.416Response from Server: CourseRegistrationApp.CoursesHolder@2e0fa5d3</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:26</date>
+  <millis>1541021186253</millis>
+  <sequence>22</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:26.253 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:31</date>
+  <millis>1541021191217</millis>
+  <sequence>23</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:31.217 Response from Server: You have already reached your limit for this term!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T19:07:29</date>
+  <millis>1541027249552</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:07:29.537 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T19:07:32</date>
+  <millis>1541027252625</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:07:32.625 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T19:07:54</date>
+  <millis>1541027274703</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:07:54.703 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T19:08:06</date>
+  <millis>1541027286221</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:08:06.221 Response from Server: The course is full!</message>
+</record>
+<record>
+  <date>2018-10-31T19:08:24</date>
+  <millis>1541027304502</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:08:24.502 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T19:08:26</date>
+  <millis>1541027306150</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:08:26.150 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T19:08:31</date>
+  <millis>1541027311573</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:08:31.573 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-10-31T19:08:37</date>
+  <millis>1541027317800</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:08:37.800Response from Server: Course to enroll doesn't exist!</message>
+</record>
+<record>
+  <date>2018-10-31T19:09:29</date>
+  <millis>1541027369005</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:09:29.005 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-10-31T19:09:29</date>
+  <millis>1541027369005</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:09:29.005Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-10-31T19:09:50</date>
+  <millis>1541027390458</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:09:50.458 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-10-31T19:09:58</date>
+  <millis>1541027398081</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:09:58.081Response from Server: Course to enroll doesn't exist!</message>
+</record>
+<record>
+  <date>2018-10-31T19:10:24</date>
+  <millis>1541027424829</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:10:24.814 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-10-31T19:10:24</date>
+  <millis>1541027424829</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:10:24.829Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T20:29:03</date>
+  <millis>1541032143187</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:29:03.187 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:04</date>
+  <millis>1541032144813</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:29:04.813 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:28</date>
+  <millis>1541032168617</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:29:28.617 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:31</date>
+  <millis>1541032171392</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:29:31.392 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:34</date>
+  <millis>1541032174239</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:29:34.239 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:34</date>
+  <millis>1541032174255</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:29:34.255Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:38</date>
+  <millis>1541032178248</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:29:38.248 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:43</date>
+  <millis>1541032183505</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:29:43.505Response from Server: Course to enroll doesn't exist!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:00:20</date>
+  <millis>1541106020191</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:00:20.175 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:24</date>
+  <millis>1541106024926</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:00:24.926 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:27</date>
+  <millis>1541106027263</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:00:27.263 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:29</date>
+  <millis>1541106029086</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:00:29.086 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:35</date>
+  <millis>1541106035047</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:00:35.047 Operation: Drop Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:37</date>
+  <millis>1541106037629</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>dropCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:00:37.629 Response from Server: Could not find the course</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:44</date>
+  <millis>1541106044476</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:00:44.476 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:44</date>
+  <millis>1541106044492</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:00:44.492Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:49</date>
+  <millis>1541106049289</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:00:49.289 Operation: Drop Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:00:51</date>
+  <millis>1541106051414</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>dropCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:00:51.414 Response from Server: Could not find the course</message>
+</record>
+<record>
+  <date>2018-11-01T17:01:07</date>
+  <millis>1541106067410</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:01:07.410 Operation: Drop Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:01:10</date>
+  <millis>1541106070144</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>dropCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:01:10.144 Response from Server: Could not find the course</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:24:24</date>
+  <millis>1541107464951</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:24:24.936 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:28</date>
+  <millis>1541107468407</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:24:28.407 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:32</date>
+  <millis>1541107472742</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:24:32.742 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:39</date>
+  <millis>1541107479136</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:24:39.136 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:42</date>
+  <millis>1541107482046</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:24:42.046 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:42</date>
+  <millis>1541107482061</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:24:42.061Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-01T17:25:16</date>
+  <millis>1541107516535</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:25:16.535 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T17:25:16</date>
+  <millis>1541107516550</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:25:16.550Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-01T17:25:19</date>
+  <millis>1541107519199</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:25:19.199 Operation: Drop Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:25:27</date>
+  <millis>1541107527404</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>dropCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:25:27.404 Response from Server: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-01T17:25:30</date>
+  <millis>1541107530498</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:25:30.498 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T17:25:30</date>
+  <millis>1541107530498</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:25:30.498Response from Server: CourseRegistrationApp.CoursesHolder@2e0fa5d3</message>
+</record>
+<record>
+  <date>2018-11-01T17:26:28</date>
+  <millis>1541107588575</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:26:28.575 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:26:31</date>
+  <millis>1541107591435</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:26:31.435 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:26:33</date>
+  <millis>1541107593122</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:26:33.122 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T17:26:33</date>
+  <millis>1541107593138</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:26:33.138Response from Server: CourseRegistrationApp.CoursesHolder@5010be6</message>
+</record>
+<record>
+  <date>2018-11-01T17:26:42</date>
+  <millis>1541107602001</millis>
+  <sequence>16</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:26:42.001 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:26:57</date>
+  <millis>1541107617213</millis>
+  <sequence>17</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:26:57.213Response from Server: Course to enroll doesn't exist!</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:07</date>
+  <millis>1541107627717</millis>
+  <sequence>18</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:27:07.717 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:12</date>
+  <millis>1541107632775</millis>
+  <sequence>19</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:27:12.775 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:15</date>
+  <millis>1541107635699</millis>
+  <sequence>20</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:27:15.699 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:15</date>
+  <millis>1541107635699</millis>
+  <sequence>21</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:27:15.699Response from Server: CourseRegistrationApp.CoursesHolder@685f4c2e</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:24</date>
+  <millis>1541107644869</millis>
+  <sequence>22</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:27:24.869 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:52</date>
+  <millis>1541107672048</millis>
+  <sequence>23</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:27:52.048Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:57</date>
+  <millis>1541107677649</millis>
+  <sequence>24</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:27:57.649 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:57</date>
+  <millis>1541107677649</millis>
+  <sequence>25</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:27:57.649Response from Server: CourseRegistrationApp.CoursesHolder@2e5d6d97</message>
+</record>
+<record>
+  <date>2018-11-01T17:28:06</date>
+  <millis>1541107686748</millis>
+  <sequence>26</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:28:06.748 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:28:10</date>
+  <millis>1541107690877</millis>
+  <sequence>27</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:28:10.877Response from Server: Course to enroll doesn't exist!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:38:16</date>
+  <millis>1541108296280</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:38:16.280 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:38:21</date>
+  <millis>1541108301207</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:38:21.207 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:38:24</date>
+  <millis>1541108304871</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:38:24.871 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:38:54</date>
+  <millis>1541108334575</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:38:54.575 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:38:57</date>
+  <millis>1541108337439</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:38:57.439 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T17:38:57</date>
+  <millis>1541108337439</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:38:57.439Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-01T17:39:01</date>
+  <millis>1541108341058</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:39:01.058 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:39:11</date>
+  <millis>1541108351405</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:39:11.405Response from Server: Course to enroll doesn't exist!</message>
+</record>
+<record>
+  <date>2018-11-01T17:41:52</date>
+  <millis>1541108512873</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:41:52.873 Operation: Get Class Schedule</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:46:27</date>
+  <millis>1541108787913</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:46:27.897 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:46:29</date>
+  <millis>1541108789256</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:46:29.256 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:46:31</date>
+  <millis>1541108791828</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:46:31.828 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:46:33</date>
+  <millis>1541108793578</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:46:33.578 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:46:38</date>
+  <millis>1541108798928</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:46:38.928 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:46:48</date>
+  <millis>1541108808571</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:46:48.571Response from Server: Course to enroll doesn't exist!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:52:06</date>
+  <millis>1541109126825</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:52:06.825 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:19</date>
+  <millis>1541109139781</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:52:19.781 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:22</date>
+  <millis>1541109142079</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:52:22.079 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:30</date>
+  <millis>1541109150377</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:52:30.377 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:32</date>
+  <millis>1541109152721</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:52:32.721 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:32</date>
+  <millis>1541109152736</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:52:32.736Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:35</date>
+  <millis>1541109155817</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:52:35.817 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:40</date>
+  <millis>1541109160631</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:52:40.631Response from Server: Course to enroll doesn't exist!</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:54</date>
+  <millis>1541109174070</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:52:54.070 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T17:52:54</date>
+  <millis>1541109174070</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:52:54.070Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T18:03:34</date>
+  <millis>1541109814987</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:03:34.971 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T18:03:36</date>
+  <millis>1541109816831</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:03:36.831 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T18:04:09</date>
+  <millis>1541109849667</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:04:09.667 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T18:04:19</date>
+  <millis>1541109859469</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:04:19.469 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T18:04:35</date>
+  <millis>1541109875955</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:04:35.955 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T18:04:35</date>
+  <millis>1541109875971</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:04:35.971Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-01T18:04:53</date>
+  <millis>1541109893432</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:04:53.432 Operation: Swap Course</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T18:07:19</date>
+  <millis>1541110039178</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:07:19.178 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T18:07:20</date>
+  <millis>1541110040515</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:07:20.515 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T18:07:22</date>
+  <millis>1541110042906</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:07:22.906 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T18:07:24</date>
+  <millis>1541110044872</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:07:24.872 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-01T18:07:28</date>
+  <millis>1541110048843</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:07:28.843 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-01T18:07:33</date>
+  <millis>1541110053859</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:07:33.859Response from Server: Course to enroll doesn't exist!</message>
+</record>
+<record>
+  <date>2018-11-01T18:08:05</date>
+  <millis>1541110085477</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:08:05.477 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-01T18:08:12</date>
+  <millis>1541110092270</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:08:12.270Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-01T18:08:18</date>
+  <millis>1541110098672</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:08:18.672 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T18:08:18</date>
+  <millis>1541110098688</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:08:18.688Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-01T18:08:55</date>
+  <millis>1541110135899</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:08:55.899 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-01T18:08:55</date>
+  <millis>1541110135899</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:08:55.899Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-01T18:09:08</date>
+  <millis>1541110148954</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:09:08.954 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-01T18:09:10</date>
+  <millis>1541110150329</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:09:10.329 Response from Server: You have already enrolled for this course!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T18:05:36</date>
+  <millis>1541282736479</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:05:36.464 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:05:37</date>
+  <millis>1541282737901</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:05:37.901 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T18:05:40</date>
+  <millis>1541282740021</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:05:40.021 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:05:48</date>
+  <millis>1541282748112</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:05:48.112 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T18:05:50</date>
+  <millis>1541282750082</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:05:50.082 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T18:05:50</date>
+  <millis>1541282750113</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:05:50.113Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-03T18:05:55</date>
+  <millis>1541282755161</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:05:55.161 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:06:04</date>
+  <millis>1541282764887</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:06:04.887Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-03T18:06:07</date>
+  <millis>1541282767512</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:06:07.512 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T18:06:07</date>
+  <millis>1541282767512</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:06:07.512Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-03T18:06:29</date>
+  <millis>1541282789770</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:06:29.770 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:06:37</date>
+  <millis>1541282797061</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:06:37.061Response from Server: Course to enroll doesn't exist!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T18:42:10</date>
+  <millis>1541284930833</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:10.818 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:11</date>
+  <millis>1541284931859</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:11.859 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:14</date>
+  <millis>1541284934326</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:14.326 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:17</date>
+  <millis>1541284937961</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:17.961 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:19</date>
+  <millis>1541284939384</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:19.384 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:19</date>
+  <millis>1541284939430</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:19.430Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:26</date>
+  <millis>1541284946090</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:26.090 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:35</date>
+  <millis>1541284955888</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:35.888Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:39</date>
+  <millis>1541284959149</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:39.149 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:39</date>
+  <millis>1541284959149</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:39.149Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:48</date>
+  <millis>1541284968169</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:48.169 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:51</date>
+  <millis>1541284971345</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:51.345Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:53</date>
+  <millis>1541284973799</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:53.799 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:53</date>
+  <millis>1541284973799</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:53.799Response from Server: CourseRegistrationApp.CoursesHolder@2e0fa5d3</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:59</date>
+  <millis>1541284979994</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:59.994 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:43:03</date>
+  <millis>1541284983245</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:43:03.245Response from Server: Course to enroll doesn't exist!</message>
+</record>
+<record>
+  <date>2018-11-03T18:43:42</date>
+  <millis>1541285022172</millis>
+  <sequence>16</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:43:42.172 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:43:55</date>
+  <millis>1541285035272</millis>
+  <sequence>17</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:43:55.272Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-03T18:44:01</date>
+  <millis>1541285041218</millis>
+  <sequence>18</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:44:01.202 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T18:44:01</date>
+  <millis>1541285041218</millis>
+  <sequence>19</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:44:01.218Response from Server: CourseRegistrationApp.CoursesHolder@5010be6</message>
+</record>
+<record>
+  <date>2018-11-03T18:44:09</date>
+  <millis>1541285049610</millis>
+  <sequence>20</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:44:09.610 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T18:44:13</date>
+  <millis>1541285053361</millis>
+  <sequence>21</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:44:13.361Response from Server: Course to enroll doesn't exist!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:05:36</date>
+  <millis>1541286336635</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:36.635 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:37</date>
+  <millis>1541286337542</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:37.542 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:39</date>
+  <millis>1541286339777</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:39.777 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:43</date>
+  <millis>1541286343650</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:43.650 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:45</date>
+  <millis>1541286345452</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:45.452 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:45</date>
+  <millis>1541286345467</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:45.467Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:49</date>
+  <millis>1541286349575</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:49.575 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:58</date>
+  <millis>1541286358447</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:58.447Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-03T19:06:02</date>
+  <millis>1541286362282</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:06:02.282 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:06:02</date>
+  <millis>1541286362282</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:06:02.282Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-03T19:07:58</date>
+  <millis>1541286478660</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:07:58.660 Operation: Drop Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:08:00</date>
+  <millis>1541286480504</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>dropCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:08:00.504 Response from Server: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T19:08:02</date>
+  <millis>1541286482129</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:08:02.129 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:08:02</date>
+  <millis>1541286482129</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:08:02.129Response from Server: CourseRegistrationApp.CoursesHolder@2e0fa5d3</message>
+</record>
+<record>
+  <date>2018-11-03T19:08:05</date>
+  <millis>1541286485455</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:08:05.455 Operation: Drop Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:08:06</date>
+  <millis>1541286486830</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>dropCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:08:06.830 Response from Server: Fail</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:11:58</date>
+  <millis>1541286718367</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:58.367 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:02</date>
+  <millis>1541286722806</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:02.806 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:04</date>
+  <millis>1541286724978</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:04.978 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:06</date>
+  <millis>1541286726229</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:06.229 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:08</date>
+  <millis>1541286728698</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:08.698 Operation: Drop Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:10</date>
+  <millis>1541286730089</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>dropCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:10.089 Response from Server: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:12</date>
+  <millis>1541286732074</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:12.074 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:16</date>
+  <millis>1541286736393</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:16.393 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:17</date>
+  <millis>1541286737894</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:17.894 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:17</date>
+  <millis>1541286737909</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:17.909Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:21</date>
+  <millis>1541286741316</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:21.316 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:26</date>
+  <millis>1541286746594</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:26.594Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:28</date>
+  <millis>1541286748635</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:28.635 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:28</date>
+  <millis>1541286748651</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:28.651Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-03T19:12:34</date>
+  <millis>1541286754746</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:12:34.746 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:13:25</date>
+  <millis>1541286805392</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:13:25.392Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-03T19:13:27</date>
+  <millis>1541286807674</millis>
+  <sequence>16</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:13:27.674 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:13:27</date>
+  <millis>1541286807674</millis>
+  <sequence>17</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:13:27.674Response from Server: CourseRegistrationApp.CoursesHolder@2e0fa5d3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:28:09</date>
+  <millis>1541287689636</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:28:09.636 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:10</date>
+  <millis>1541287690933</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:28:10.933 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:16</date>
+  <millis>1541287696031</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:28:16.031 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:21</date>
+  <millis>1541287701042</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:28:21.042 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:23</date>
+  <millis>1541287703105</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:28:23.105 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:23</date>
+  <millis>1541287703121</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:28:23.121Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:26</date>
+  <millis>1541287706946</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:28:26.946 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:32</date>
+  <millis>1541287712264</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:28:32.264Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:34</date>
+  <millis>1541287714202</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:28:34.202 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:34</date>
+  <millis>1541287714202</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:28:34.202Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:32:12</date>
+  <millis>1541287932323</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:12.307 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:13</date>
+  <millis>1541287933573</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:13.573 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:15</date>
+  <millis>1541287935218</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:15.218 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:18</date>
+  <millis>1541287938062</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:18.062 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:19</date>
+  <millis>1541287939504</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:19.504 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:19</date>
+  <millis>1541287939504</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:19.504Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:23</date>
+  <millis>1541287943870</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:23.870 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:27</date>
+  <millis>1541287947402</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:27.402Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:28</date>
+  <millis>1541287948668</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:28.668 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:28</date>
+  <millis>1541287948684</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:28.684Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:36:07</date>
+  <millis>1541288167353</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:07.338 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:09</date>
+  <millis>1541288169380</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:09.380 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:11</date>
+  <millis>1541288171749</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:11.749 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:14</date>
+  <millis>1541288174653</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:14.653 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:17</date>
+  <millis>1541288177108</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:17.108 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:17</date>
+  <millis>1541288177108</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:17.108Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:20</date>
+  <millis>1541288180453</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:20.453 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:23</date>
+  <millis>1541288183207</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:23.207Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:25</date>
+  <millis>1541288185087</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:25.087 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:25</date>
+  <millis>1541288185087</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:25.087Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:37</date>
+  <millis>1541288197673</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:37.673 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:42</date>
+  <millis>1541288202455</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:42.455Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:43</date>
+  <millis>1541288203924</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:43.924 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:43</date>
+  <millis>1541288203924</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:43.924Response from Server: CourseRegistrationApp.CoursesHolder@2e0fa5d3</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:51</date>
+  <millis>1541288211365</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:51.365 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:55</date>
+  <millis>1541288215773</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:55.773Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:57</date>
+  <millis>1541288217302</millis>
+  <sequence>16</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:57.302 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:57</date>
+  <millis>1541288217302</millis>
+  <sequence>17</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:57.302Response from Server: CourseRegistrationApp.CoursesHolder@5010be6</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T00:08:28</date>
+  <millis>1541304508518</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:08:28.502 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T00:08:32</date>
+  <millis>1541304512800</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:08:32.800 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T00:08:39</date>
+  <millis>1541304519547</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:08:39.547 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T00:08:42</date>
+  <millis>1541304522065</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:08:42.065 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T00:08:44</date>
+  <millis>1541304524401</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:08:44.401 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T00:08:45</date>
+  <millis>1541304525786</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:08:45.786 Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:10</date>
+  <millis>1541304550199</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:09:10.199 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:17</date>
+  <millis>1541304557133</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:09:17.133 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:19</date>
+  <millis>1541304559066</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:09:19.066 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:19</date>
+  <millis>1541304559066</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:09:19.066Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:26</date>
+  <millis>1541304566397</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:09:26.397 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:39</date>
+  <millis>1541304579858</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:09:39.858Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:43</date>
+  <millis>1541304583196</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:09:43.196 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:43</date>
+  <millis>1541304583196</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:09:43.196Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T01:30:08</date>
+  <millis>1541309408540</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:30:08.524 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:30:12</date>
+  <millis>1541309412545</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:30:12.545 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:30:15</date>
+  <millis>1541309415280</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:30:15.280 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:30:17</date>
+  <millis>1541309417584</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:30:17.584 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:30:20</date>
+  <millis>1541309420214</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:30:20.214 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:30:21</date>
+  <millis>1541309421792</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:30:21.792 Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T01:30:28</date>
+  <millis>1541309428549</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:30:28.549 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:17</date>
+  <millis>1541309477546</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:31:17.546 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:20</date>
+  <millis>1541309480494</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:31:20.494 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:20</date>
+  <millis>1541309480494</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:31:20.494Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:28</date>
+  <millis>1541309488074</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:31:28.074 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:36</date>
+  <millis>1541309496817</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:31:36.817Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:39</date>
+  <millis>1541309499866</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:31:39.866 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T01:31:39</date>
+  <millis>1541309499881</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:31:39.881Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-04T01:40:00</date>
+  <millis>1541310000887</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:40:00.887 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:40:14</date>
+  <millis>1541310014123</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:40:14.123Response from Server: You have already enrolled for this course!</message>
+</record>
+<record>
+  <date>2018-11-04T01:40:18</date>
+  <millis>1541310018343</millis>
+  <sequence>16</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:40:18.343 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:40:35</date>
+  <millis>1541310035300</millis>
+  <sequence>17</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:40:35.300Response from Server: Server Error</message>
+</record>
+<record>
+  <date>2018-11-04T01:40:58</date>
+  <millis>1541310058937</millis>
+  <sequence>18</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:40:58.937 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:41:03</date>
+  <millis>1541310063630</millis>
+  <sequence>19</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:41:03.630Response from Server: Server Error</message>
+</record>
+<record>
+  <date>2018-11-04T01:42:28</date>
+  <millis>1541310148703</millis>
+  <sequence>20</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:42:28.703 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:42:34</date>
+  <millis>1541310154954</millis>
+  <sequence>21</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:42:34.954Response from Server: You have already enrolled for this course!</message>
+</record>
+<record>
+  <date>2018-11-04T01:42:38</date>
+  <millis>1541310158362</millis>
+  <sequence>22</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:42:38.362 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:42:44</date>
+  <millis>1541310164469</millis>
+  <sequence>23</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:42:44.469Response from Server: You have already enrolled for this course!</message>
+</record>
+<record>
+  <date>2018-11-04T01:42:53</date>
+  <millis>1541310173972</millis>
+  <sequence>24</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:42:53.972 Operation: Drop Course</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T01:44:50</date>
+  <millis>1541310290725</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:44:50.709 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:44:53</date>
+  <millis>1541310293232</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:44:53.232 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:44:54</date>
+  <millis>1541310294982</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:44:54.982 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:44:58</date>
+  <millis>1541310298924</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:44:58.924 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:00</date>
+  <millis>1541310300859</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:00.859 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:02</date>
+  <millis>1541310302141</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:02.141 Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:07</date>
+  <millis>1541310307943</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:07.943 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:09</date>
+  <millis>1541310309161</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:09.161 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:13</date>
+  <millis>1541310313569</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:13.569 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:20</date>
+  <millis>1541310320837</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:20.837Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:33</date>
+  <millis>1541310333101</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:33.101 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:33</date>
+  <millis>1541310333101</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:33.101Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:36</date>
+  <millis>1541310336902</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:36.902 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:44</date>
+  <millis>1541310344650</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:44.650Response from Server: Server Error</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:50</date>
+  <millis>1541310350708</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:50.708 Operation: Drop Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:55</date>
+  <millis>1541310355469</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>dropCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:55.469 Response from Server: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:59</date>
+  <millis>1541310359286</millis>
+  <sequence>16</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:59.286 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T01:45:59</date>
+  <millis>1541310359286</millis>
+  <sequence>17</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:45:59.286Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:03</date>
+  <millis>1541310363707</millis>
+  <sequence>18</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:03.707 Operation: Drop Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:05</date>
+  <millis>1541310365567</millis>
+  <sequence>19</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>dropCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:05.567 Response from Server: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:07</date>
+  <millis>1541310367987</millis>
+  <sequence>20</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:07.987 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:07</date>
+  <millis>1541310367987</millis>
+  <sequence>21</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:07.987Response from Server: CourseRegistrationApp.CoursesHolder@2e0fa5d3</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:10</date>
+  <millis>1541310370879</millis>
+  <sequence>22</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:10.879 Operation: Drop Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:12</date>
+  <millis>1541310372410</millis>
+  <sequence>23</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>dropCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:12.410 Response from Server: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:14</date>
+  <millis>1541310374904</millis>
+  <sequence>24</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:14.904 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:14</date>
+  <millis>1541310374904</millis>
+  <sequence>25</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:14.904Response from Server: CourseRegistrationApp.CoursesHolder@685f4c2e</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:18</date>
+  <millis>1541310378530</millis>
+  <sequence>26</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:18.530 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:21</date>
+  <millis>1541310381214</millis>
+  <sequence>27</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:21.214 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:26</date>
+  <millis>1541310386866</millis>
+  <sequence>28</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:26.866 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:29</date>
+  <millis>1541310389210</millis>
+  <sequence>29</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:29.210 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:33</date>
+  <millis>1541310393242</millis>
+  <sequence>30</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:33.242 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:35</date>
+  <millis>1541310395711</millis>
+  <sequence>31</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:35.711 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:37</date>
+  <millis>1541310397540</millis>
+  <sequence>32</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:37.540 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:37</date>
+  <millis>1541310397540</millis>
+  <sequence>33</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:37.540Response from Server: CourseRegistrationApp.CoursesHolder@7daf6ecc</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:44</date>
+  <millis>1541310404608</millis>
+  <sequence>34</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:44.608 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:53</date>
+  <millis>1541310413661</millis>
+  <sequence>35</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:53.661Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:56</date>
+  <millis>1541310416716</millis>
+  <sequence>36</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:56.716 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T01:46:56</date>
+  <millis>1541310416716</millis>
+  <sequence>37</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:46:56.716Response from Server: CourseRegistrationApp.CoursesHolder@2e5d6d97</message>
+</record>
+<record>
+  <date>2018-11-04T01:47:05</date>
+  <millis>1541310425514</millis>
+  <sequence>38</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:47:05.514 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:47:11</date>
+  <millis>1541310431719</millis>
+  <sequence>39</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:47:11.719Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T01:47:13</date>
+  <millis>1541310433958</millis>
+  <sequence>40</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:47:13.958 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T01:47:13</date>
+  <millis>1541310433958</millis>
+  <sequence>41</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:47:13.958Response from Server: CourseRegistrationApp.CoursesHolder@238e0d81</message>
+</record>
+<record>
+  <date>2018-11-04T01:47:18</date>
+  <millis>1541310438235</millis>
+  <sequence>42</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:47:18.235 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T01:47:28</date>
+  <millis>1541310448693</millis>
+  <sequence>43</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:47:28.693Response from Server: Server Error</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T12:38:49</date>
+  <millis>1541353129480</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:38:49.465 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:38:55</date>
+  <millis>1541353135472</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:38:55.472 Response from Server: Could not find the course!</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:14</date>
+  <millis>1541353154658</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:14.658 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:19</date>
+  <millis>1541353159611</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:19.611 Response from Server: Could not find the course!</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:22</date>
+  <millis>1541353162002</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:22.002 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:23</date>
+  <millis>1541353163653</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:23.653 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:25</date>
+  <millis>1541353165763</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:25.763 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:26</date>
+  <millis>1541353166951</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:26.951 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:29</date>
+  <millis>1541353169529</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:29.529 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:29</date>
+  <millis>1541353169545</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:29.545Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:33</date>
+  <millis>1541353173202</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:33.202 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:35</date>
+  <millis>1541353175095</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:35.095 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:40</date>
+  <millis>1541353180047</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:40.047 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:47</date>
+  <millis>1541353187792</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:47.792Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T12:40:04</date>
+  <millis>1541353204169</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:40:04.169 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T12:40:04</date>
+  <millis>1541353204169</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:40:04.169Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-04T12:40:50</date>
+  <millis>1541353250312</millis>
+  <sequence>16</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:40:50.312 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:40:55</date>
+  <millis>1541353255858</millis>
+  <sequence>17</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:40:55.858Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T12:48:53</date>
+  <millis>1541353733397</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:48:53.397 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:48:56</date>
+  <millis>1541353736943</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:48:56.943 Response from Server: Could not find the course!</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:04</date>
+  <millis>1541353744439</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:04.439 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:06</date>
+  <millis>1541353746674</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:06.674 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:08</date>
+  <millis>1541353748972</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:08.972 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:11</date>
+  <millis>1541353751925</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:11.925 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:14</date>
+  <millis>1541353754285</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:14.285 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:15</date>
+  <millis>1541353755692</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:15.692 Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:19</date>
+  <millis>1541353759975</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:19.975 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:22</date>
+  <millis>1541353762179</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:22.179 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:24</date>
+  <millis>1541353764820</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:24.820 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:24</date>
+  <millis>1541353764835</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:24.835Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:48</date>
+  <millis>1541353788703</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:48.703 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:54</date>
+  <millis>1541353794106</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:54.106Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:56</date>
+  <millis>1541353796482</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:56.482 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T12:49:56</date>
+  <millis>1541353796482</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:49:56.482Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-04T12:50:13</date>
+  <millis>1541353813286</millis>
+  <sequence>16</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:50:13.286 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:50:19</date>
+  <millis>1541353819982</millis>
+  <sequence>17</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:50:19.982Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T12:50:26</date>
+  <millis>1541353826899</millis>
+  <sequence>18</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:50:26.899 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:50:35</date>
+  <millis>1541353835343</millis>
+  <sequence>19</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:50:35.343Response from Server: You have already enrolled for this course!</message>
+</record>
+<record>
+  <date>2018-11-04T12:50:42</date>
+  <millis>1541353842229</millis>
+  <sequence>20</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:50:42.229 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T12:50:42</date>
+  <millis>1541353842229</millis>
+  <sequence>21</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:50:42.229Response from Server: CourseRegistrationApp.CoursesHolder@2e0fa5d3</message>
+</record>
+<record>
+  <date>2018-11-04T12:50:47</date>
+  <millis>1541353847505</millis>
+  <sequence>22</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:50:47.505 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:50:57</date>
+  <millis>1541353857946</millis>
+  <sequence>23</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:50:57.946Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T12:51:04</date>
+  <millis>1541353864384</millis>
+  <sequence>24</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:51:04.384 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:51:09</date>
+  <millis>1541353869869</millis>
+  <sequence>25</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:51:09.869Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T12:51:15</date>
+  <millis>1541353875323</millis>
+  <sequence>26</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:51:15.323 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T12:51:15</date>
+  <millis>1541353875339</millis>
+  <sequence>27</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:51:15.339Response from Server: CourseRegistrationApp.CoursesHolder@685f4c2e</message>
+</record>
+<record>
+  <date>2018-11-04T12:51:26</date>
+  <millis>1541353886616</millis>
+  <sequence>28</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:51:26.616 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:51:33</date>
+  <millis>1541353893860</millis>
+  <sequence>29</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:51:33.860Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T12:54:33</date>
+  <millis>1541354073952</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:33.937 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:36</date>
+  <millis>1541354076922</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:36.922 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:38</date>
+  <millis>1541354078844</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:38.844 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:41</date>
+  <millis>1541354081047</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:41.047 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:43</date>
+  <millis>1541354083126</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:43.126 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:45</date>
+  <millis>1541354085524</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:45.524 Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:47</date>
+  <millis>1541354087222</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:47.222 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:48</date>
+  <millis>1541354088597</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:48.597 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:49</date>
+  <millis>1541354089926</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:49.926 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:49</date>
+  <millis>1541354089926</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:49.926Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-04T12:55:00</date>
+  <millis>1541354100654</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:55:00.654 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:55:04</date>
+  <millis>1541354104968</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:55:04.968Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T12:55:07</date>
+  <millis>1541354107207</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:55:07.207 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T12:55:07</date>
+  <millis>1541354107223</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:55:07.223Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-04T12:55:19</date>
+  <millis>1541354119573</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:55:19.573 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T12:55:24</date>
+  <millis>1541354124371</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:55:24.371Response from Server: Server Error</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T13:40:37</date>
+  <millis>1541356837210</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:37.210 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:39</date>
+  <millis>1541356839007</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:39.007 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:41</date>
+  <millis>1541356841039</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:41.039 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:42</date>
+  <millis>1541356842768</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:42.768 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:45</date>
+  <millis>1541356845169</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:45.169 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:46</date>
+  <millis>1541356846748</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:46.748 Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:49</date>
+  <millis>1541356849983</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:49.983 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:53</date>
+  <millis>1541356853728</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:53.728 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:55</date>
+  <millis>1541356855185</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:55.185 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:55</date>
+  <millis>1541356855185</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:55.185Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:10</date>
+  <millis>1541356870591</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:41:10.591 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:15</date>
+  <millis>1541356875092</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:41:15.092Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:17</date>
+  <millis>1541356877093</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:41:17.093 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:17</date>
+  <millis>1541356877093</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:41:17.093Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:32</date>
+  <millis>1541356892248</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:41:32.248 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:40</date>
+  <millis>1541356900903</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:41:40.903Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:42</date>
+  <millis>1541356902528</millis>
+  <sequence>16</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:41:42.528 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:42</date>
+  <millis>1541356902543</millis>
+  <sequence>17</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:41:42.543Response from Server: CourseRegistrationApp.CoursesHolder@2e0fa5d3</message>
+</record>
+<record>
+  <date>2018-11-04T13:41:51</date>
+  <millis>1541356911293</millis>
+  <sequence>18</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:41:51.293 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T13:42:12</date>
+  <millis>1541356932641</millis>
+  <sequence>19</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:42:12.641Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T13:42:15</date>
+  <millis>1541356935735</millis>
+  <sequence>20</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:42:15.735 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T13:42:15</date>
+  <millis>1541356935735</millis>
+  <sequence>21</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:42:15.735Response from Server: CourseRegistrationApp.CoursesHolder@5010be6</message>
+</record>
+<record>
+  <date>2018-11-04T13:42:20</date>
+  <millis>1541356940548</millis>
+  <sequence>22</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:42:20.548 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T13:42:38</date>
+  <millis>1541356958246</millis>
+  <sequence>23</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:42:38.246Response from Server: Server Error</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T13:57:20</date>
+  <millis>1541357840319</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:57:20.319 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:22</date>
+  <millis>1541357842929</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:57:22.929 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:25</date>
+  <millis>1541357845252</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:57:25.252 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:30</date>
+  <millis>1541357850435</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:57:30.435 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:33</date>
+  <millis>1541357853342</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:57:33.342 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:35</date>
+  <millis>1541357855624</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:57:35.624 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:42</date>
+  <millis>1541357862131</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:57:42.131 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:42</date>
+  <millis>1541357862147</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:57:42.147Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T15:20:04</date>
+  <millis>1541362804264</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:04.249 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:07</date>
+  <millis>1541362807573</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:07.573 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:10</date>
+  <millis>1541362810574</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:10.574 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:16</date>
+  <millis>1541362816641</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:16.641 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:20</date>
+  <millis>1541362820658</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:20.658 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:24</date>
+  <millis>1541362824525</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:24.525 Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:27</date>
+  <millis>1541362827021</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:27.021 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:30</date>
+  <millis>1541362830670</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:30.670 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:33</date>
+  <millis>1541362833122</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:33.122 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:33</date>
+  <millis>1541362833122</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:33.122Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:38</date>
+  <millis>1541362838061</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:38.061 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:41</date>
+  <millis>1541362841764</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:41.764Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:43</date>
+  <millis>1541362843155</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:43.155 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:43</date>
+  <millis>1541362843171</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:43.171Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:48</date>
+  <millis>1541362848066</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:48.066 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:52</date>
+  <millis>1541362852632</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:52.632Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:54</date>
+  <millis>1541362854491</millis>
+  <sequence>16</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:54.491 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:54</date>
+  <millis>1541362854507</millis>
+  <sequence>17</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:54.507Response from Server: CourseRegistrationApp.CoursesHolder@2e0fa5d3</message>
+</record>
+<record>
+  <date>2018-11-04T15:20:57</date>
+  <millis>1541362857549</millis>
+  <sequence>18</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:20:57.549 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T15:21:03</date>
+  <millis>1541362863336</millis>
+  <sequence>19</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:21:03.336Response from Server: Server Error</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T16:00:57</date>
+  <millis>1541365257693</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:00:57.693 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:01</date>
+  <millis>1541365261879</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:01.879 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:03</date>
+  <millis>1541365263849</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:03.849 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:05</date>
+  <millis>1541365265177</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:05.177 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:08</date>
+  <millis>1541365268228</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:08.228 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:09</date>
+  <millis>1541365269520</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:09.520 Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:12</date>
+  <millis>1541365272277</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:12.277 Operation: Enroll Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:13</date>
+  <millis>1541365273340</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>enrollCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:13.340 Response from Server: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:15</date>
+  <millis>1541365275544</millis>
+  <sequence>8</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:15.544 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:15</date>
+  <millis>1541365275544</millis>
+  <sequence>9</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:15.544Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:19</date>
+  <millis>1541365279549</millis>
+  <sequence>10</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:19.549 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:23</date>
+  <millis>1541365283304</millis>
+  <sequence>11</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:23.304Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:25</date>
+  <millis>1541365285070</millis>
+  <sequence>12</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:25.070 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:25</date>
+  <millis>1541365285086</millis>
+  <sequence>13</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:25.086Response from Server: CourseRegistrationApp.CoursesHolder@17f052a3</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:30</date>
+  <millis>1541365290437</millis>
+  <sequence>14</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:30.437 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:38</date>
+  <millis>1541365298651</millis>
+  <sequence>15</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:38.651Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:41</date>
+  <millis>1541365301339</millis>
+  <sequence>16</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:41.339 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:50</date>
+  <millis>1541365310358</millis>
+  <sequence>17</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:50.358Response from Server: You have already enrolled for this course!</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:54</date>
+  <millis>1541365314062</millis>
+  <sequence>18</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:54.062 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:54</date>
+  <millis>1541365314062</millis>
+  <sequence>19</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:54.062Response from Server: CourseRegistrationApp.CoursesHolder@2e0fa5d3</message>
+</record>
+<record>
+  <date>2018-11-04T16:01:58</date>
+  <millis>1541365318563</millis>
+  <sequence>20</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:01:58.563 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:03</date>
+  <millis>1541365323651</millis>
+  <sequence>21</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:03.651Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:05</date>
+  <millis>1541365325364</millis>
+  <sequence>22</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:05.364 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:05</date>
+  <millis>1541365325364</millis>
+  <sequence>23</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:05.364Response from Server: CourseRegistrationApp.CoursesHolder@685f4c2e</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:22</date>
+  <millis>1541365342808</millis>
+  <sequence>24</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:22.808 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:27</date>
+  <millis>1541365347240</millis>
+  <sequence>25</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:27.240Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:29</date>
+  <millis>1541365349170</millis>
+  <sequence>26</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:29.170 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:29</date>
+  <millis>1541365349170</millis>
+  <sequence>27</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:29.170Response from Server: CourseRegistrationApp.CoursesHolder@7daf6ecc</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:33</date>
+  <millis>1541365353086</millis>
+  <sequence>28</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:33.086 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:36</date>
+  <millis>1541365356447</millis>
+  <sequence>29</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:36.447Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:41</date>
+  <millis>1541365361171</millis>
+  <sequence>30</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:41.171 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:45</date>
+  <millis>1541365365387</millis>
+  <sequence>31</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:45.387Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:46</date>
+  <millis>1541365366778</millis>
+  <sequence>32</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:46.778 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:46</date>
+  <millis>1541365366778</millis>
+  <sequence>33</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:46.778Response from Server: CourseRegistrationApp.CoursesHolder@2e5d6d97</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:53</date>
+  <millis>1541365373403</millis>
+  <sequence>34</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:53.403 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:03:03</date>
+  <millis>1541365383384</millis>
+  <sequence>35</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:03:03.384Response from Server: You cannot enroll for more than 2 courses from other Department!</message>
+</record>
+<record>
+  <date>2018-11-04T16:03:05</date>
+  <millis>1541365385587</millis>
+  <sequence>36</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:03:05.587 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:03:09</date>
+  <millis>1541365389643</millis>
+  <sequence>37</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:03:09.643Response from Server: Courses Swapped Successfully!</message>
+</record>
+<record>
+  <date>2018-11-04T16:03:30</date>
+  <millis>1541365410283</millis>
+  <sequence>38</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:03:30.283 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T16:03:30</date>
+  <millis>1541365410283</millis>
+  <sequence>39</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:03:30.283Response from Server: CourseRegistrationApp.CoursesHolder@238e0d81</message>
+</record>
+<record>
+  <date>2018-11-04T16:05:16</date>
+  <millis>1541365516717</millis>
+  <sequence>40</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:05:16.717 Operation: Swap Course</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T16:05:29</date>
+  <millis>1541365529544</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:05:29.544 Operation: Get Class Schedule</message>
+</record>
+<record>
+  <date>2018-11-04T16:05:29</date>
+  <millis>1541365529560</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>getClassSchedule</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:05:29.560Response from Server: CourseRegistrationApp.CoursesHolder@5197848c</message>
+</record>
+<record>
+  <date>2018-11-04T16:05:33</date>
+  <millis>1541365533098</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:05:33.098 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:05:42</date>
+  <millis>1541365542820</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:05:42.820Response from Server: Student is not enrolled in COMP45</message>
+</record>
+<record>
+  <date>2018-11-04T16:05:52</date>
+  <millis>1541365552301</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:05:52.301 Operation: Swap Course</message>
+</record>
+<record>
+  <date>2018-11-04T16:06:02</date>
+  <millis>1541365562377</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENS1001</logger>
+  <level>INFO</level>
+  <class>student.StudentOperations</class>
+  <method>swapCourse</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:06:02.377Response from Server: Could not find the course! | Could not find the new course!</message>
+</record>
+</log>

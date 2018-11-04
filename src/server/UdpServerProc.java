@@ -45,7 +45,7 @@ public class UdpServerProc implements Runnable {
             switch (udpPacket.operationNumber) {
                 case 1:
                     message = serverOperations.enroll(udpPacket.courseId, udpPacket.studentId, udpPacket.term,
-                            udpPacket.dept);
+                            udpPacket.dept, udpPacket.swapOp);
                     responseMessage = serialize(message);
                     break;
                 case 3:

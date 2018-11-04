@@ -264,3 +264,1394 @@
   <message>2018-10-31T14:06:33.317Response from Server: Success</message>
 </record>
 </log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T17:25:57</date>
+  <millis>1541021157910</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:25:57.894 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:00</date>
+  <millis>1541021160076</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:00.076Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:14</date>
+  <millis>1541021174595</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:14.595 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-31T17:26:17</date>
+  <millis>1541021177580</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:26:17.580Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T20:29:21</date>
+  <millis>1541032161802</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:29:21.787 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-31T20:29:24</date>
+  <millis>1541032164909</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:29:24.909Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T16:59:19</date>
+  <millis>1541105959386</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T16:59:19.386 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T16:59:22</date>
+  <millis>1541105962604</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T16:59:22.604Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T16:59:24</date>
+  <millis>1541105964625</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T16:59:24.625 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T16:59:27</date>
+  <millis>1541105967463</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T16:59:27.463Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T16:59:29</date>
+  <millis>1541105969783</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T16:59:29.783 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T16:59:32</date>
+  <millis>1541105972832</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T16:59:32.832Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T16:59:38</date>
+  <millis>1541105978306</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T16:59:38.306 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-11-01T16:59:38</date>
+  <millis>1541105978321</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-11-01T16:59:38.321Response from Server: true</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:24:01</date>
+  <millis>1541107441043</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:24:01.043 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:04</date>
+  <millis>1541107444092</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:24:04.092Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:06</date>
+  <millis>1541107446238</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:24:06.238 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:09</date>
+  <millis>1541107449162</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:24:09.162Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:12</date>
+  <millis>1541107452287</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:24:12.287 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:24:12</date>
+  <millis>1541107452303</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:24:12.303Response from Server: true</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:37</date>
+  <millis>1541107657827</millis>
+  <sequence>6</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:27:37.827 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:27:45</date>
+  <millis>1541107665696</millis>
+  <sequence>7</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:27:45.696Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T18:03:59</date>
+  <millis>1541282639180</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:03:59.165 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:04:01</date>
+  <millis>1541282641450</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:04:01.450Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T18:04:02</date>
+  <millis>1541282642779</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:04:02.779 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:04:05</date>
+  <millis>1541282645951</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:04:05.951Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T18:04:07</date>
+  <millis>1541282647654</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:04:07.654 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:04:11</date>
+  <millis>1541282651832</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:04:11.832Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T18:12:30</date>
+  <millis>1541283150423</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:12:30.408 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:12:34</date>
+  <millis>1541283154041</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:12:34.041Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T18:12:35</date>
+  <millis>1541283155163</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:12:35.163 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:12:37</date>
+  <millis>1541283157804</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:12:37.804Response from Server: Success</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T18:41:09</date>
+  <millis>1541284869756</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:41:09.756 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:14</date>
+  <millis>1541284874653</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:41:14.653Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:15</date>
+  <millis>1541284875944</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:41:15.944 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:19</date>
+  <millis>1541284879382</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:41:19.382Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:22</date>
+  <millis>1541284882983</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:41:22.983 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:28</date>
+  <millis>1541284888219</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:41:28.219Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:04:46</date>
+  <millis>1541286286546</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:04:46.546 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:04:49</date>
+  <millis>1541286289836</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:04:49.836Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:04:51</date>
+  <millis>1541286291774</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:04:51.774 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:04:58</date>
+  <millis>1541286298065</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:04:58.065Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:00</date>
+  <millis>1541286300825</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:00.825 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:04</date>
+  <millis>1541286304328</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:04.328Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:11:15</date>
+  <millis>1541286675778</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:15.778 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:17</date>
+  <millis>1541286677974</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:17.974Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:20</date>
+  <millis>1541286680677</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:20.677 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:27</date>
+  <millis>1541286687222</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:27.222Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:29</date>
+  <millis>1541286689769</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:29.769 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:33</date>
+  <millis>1541286693326</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:33.326Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:27:28</date>
+  <millis>1541287648836</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:27:28.821 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:27:31</date>
+  <millis>1541287651612</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:27:31.612Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:27:33</date>
+  <millis>1541287653644</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:27:33.644 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:27:35</date>
+  <millis>1541287655879</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:27:35.879Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:27:37</date>
+  <millis>1541287657504</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:27:37.504 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:27:41</date>
+  <millis>1541287661077</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:27:41.077Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:31:19</date>
+  <millis>1541287879834</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:31:19.834 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:31:22</date>
+  <millis>1541287882537</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:31:22.537Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:31:24</date>
+  <millis>1541287884185</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:31:24.185 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:31:26</date>
+  <millis>1541287886028</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:31:26.028Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:31:28</date>
+  <millis>1541287888575</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:31:28.575 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:31:31</date>
+  <millis>1541287891381</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:31:31.381Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:35:26</date>
+  <millis>1541288126125</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:35:26.109 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:35:30</date>
+  <millis>1541288130235</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:35:30.235Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:35:31</date>
+  <millis>1541288131874</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:35:31.874 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:35:36</date>
+  <millis>1541288136471</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:35:36.471Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T00:08:55</date>
+  <millis>1541304535820</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:08:55.820 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T00:08:59</date>
+  <millis>1541304539145</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:08:59.145Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:00</date>
+  <millis>1541304540588</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:09:00.588 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T00:09:05</date>
+  <millis>1541304545261</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:09:05.261Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T01:29:45</date>
+  <millis>1541309385593</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:29:45.577 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T01:29:48</date>
+  <millis>1541309388409</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:29:48.409Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T01:29:51</date>
+  <millis>1541309391984</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:29:51.984 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T01:30:00</date>
+  <millis>1541309400808</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:30:00.808Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T01:44:13</date>
+  <millis>1541310253247</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:44:13.232 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T01:44:18</date>
+  <millis>1541310258487</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:44:18.487Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T01:44:20</date>
+  <millis>1541310260971</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:44:20.971 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T01:44:24</date>
+  <millis>1541310264921</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:44:24.921Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T12:36:59</date>
+  <millis>1541353019579</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:36:59.579 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:37:40</date>
+  <millis>1541353060483</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:37:40.483Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T12:37:42</date>
+  <millis>1541353062090</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:37:42.090 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:37:44</date>
+  <millis>1541353064644</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:37:44.644Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T12:48:36</date>
+  <millis>1541353716405</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:48:36.389 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:48:39</date>
+  <millis>1541353719724</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:48:39.724Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T12:48:42</date>
+  <millis>1541353722506</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:48:42.506 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:48:45</date>
+  <millis>1541353725022</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:48:45.022Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T12:53:55</date>
+  <millis>1541354035251</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:53:55.251 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:53:58</date>
+  <millis>1541354038305</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:53:58.305Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:00</date>
+  <millis>1541354040312</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:00.312 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:05</date>
+  <millis>1541354045125</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:05.125Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T13:40:11</date>
+  <millis>1541356811318</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:11.303 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:14</date>
+  <millis>1541356814053</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:14.053Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:17</date>
+  <millis>1541356817070</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:17.070 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:19</date>
+  <millis>1541356819312</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:19.312Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T13:56:42</date>
+  <millis>1541357802610</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:56:42.594 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T13:56:45</date>
+  <millis>1541357805980</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:56:45.980Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T13:56:47</date>
+  <millis>1541357807428</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:56:47.428 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T13:56:50</date>
+  <millis>1541357810955</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:56:50.955Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T15:18:52</date>
+  <millis>1541362732912</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:18:52.912 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T15:18:55</date>
+  <millis>1541362735358</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:18:55.358Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T15:18:57</date>
+  <millis>1541362737968</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:18:57.968 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T15:19:02</date>
+  <millis>1541362742061</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:19:02.061Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T15:19:03</date>
+  <millis>1541362743628</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:19:03.628 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T15:19:09</date>
+  <millis>1541362749449</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:19:09.449Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T15:59:57</date>
+  <millis>1541365197825</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:59:57.825 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T16:00:00</date>
+  <millis>1541365200093</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:00:00.093Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T16:00:01</date>
+  <millis>1541365201421</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:00:01.421 Operation: Add Course
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T16:00:12</date>
+  <millis>1541365212962</millis>
+  <sequence>0</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:00:12.947 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-11-04T16:00:12</date>
+  <millis>1541365212994</millis>
+  <sequence>1</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:00:12.994Response from Server: true</message>
+</record>
+<record>
+  <date>2018-11-04T16:00:17</date>
+  <millis>1541365217257</millis>
+  <sequence>2</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:00:17.257 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T16:00:24</date>
+  <millis>1541365224644</millis>
+  <sequence>3</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:00:24.644Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:14</date>
+  <millis>1541365334369</millis>
+  <sequence>4</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:14.369 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T16:02:18</date>
+  <millis>1541365338932</millis>
+  <sequence>5</sequence>
+  <logger>User Id: SOENA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:02:18.932Response from Server: Success</message>
+</record>
+</log>

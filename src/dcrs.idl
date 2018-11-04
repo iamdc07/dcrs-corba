@@ -19,7 +19,7 @@ module CourseRegistrationApp{
 
     boolean student_exists(in string student_id, in string dept);
 
-    string enroll(in string courseId, in string studentId, in string term, in string dept);
+    string enroll(in string courseId, in string studentId, in string term, in string dept, in boolean swapOp);
 
     string addCourse(in string advisor_id, in string course_id, in string course_name, in string term, in string dept,
                             in short capacity);
@@ -32,6 +32,6 @@ module CourseRegistrationApp{
 
     boolean getClassSchedule(in string studentId, out string courseList);
 
-    boolean swapCourse(in string studentIid, in string oldCourseId, in string newCourseId, in string dept);
+    string swapCourse(in string studentIid, in string oldCourseId, in string newCourseId, in string dept, in string term);
     };
 };

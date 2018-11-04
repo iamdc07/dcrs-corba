@@ -168,6 +168,7 @@ public class Client {
                     System.out.println("1. Enroll Course: ");
                     System.out.println("2. Drop Course: ");
                     System.out.println("3. Get Class Schedule: ");
+                    System.out.println("4. Swap Course: ");
                     String choice = sc.nextLine();
 
                     if (choice.equals("1")) {
@@ -179,7 +180,11 @@ public class Client {
                     } else if (choice.equals("3")) {
                         logs.info(LocalDateTime.now() + " Operation: Get Class Schedule");
                         studentoperations.getClassSchedule(id, server);
+                    } else if (choice.equals("4")) {
+                        logs.info(LocalDateTime.now() + " Operation: Swap Course");
+                        studentoperations.swapCourse(id, dept, term, server);
                     }
+
                 }
             }
         } else {

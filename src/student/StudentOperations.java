@@ -22,7 +22,7 @@ public class StudentOperations {
         System.out.println("Enter Course ID: ");
         String c_id = sc.nextLine().toUpperCase();
 
-        String result = server.enroll(c_id, student_id, term, dept);
+        String result = server.enroll(c_id, student_id, term, dept, false);
         logs.info(LocalDateTime.now() + " Response from Server: " + result);
         System.out.println(result);
     }
@@ -56,5 +56,17 @@ public class StudentOperations {
                 }
             }
         }
+    }
+
+    public void swapCourse(String studentId, String dept, String term, Server server) {
+        System.out.println("Enter the ID of Course to be dropped: ");
+        String oldCourseId = sc.nextLine().toUpperCase();
+
+        System.out.println("Enter ID of Course to enroll: ");
+        String newCourseId = sc.nextLine().toUpperCase();
+
+        String result = server.swapCourse(studentId, oldCourseId, newCourseId, dept, term);
+        logs.info(LocalDateTime.now() + "Response from Server: " + result);
+        System.out.println(result);
     }
 }

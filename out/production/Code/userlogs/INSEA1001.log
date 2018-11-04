@@ -570,3 +570,1531 @@
   <message>2018-10-28T23:45:22.137Response from Server: true</message>
 </record>
 </log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T17:22:33</date>
+  <millis>1541020953454</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:22:33.454 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-31T17:22:38</date>
+  <millis>1541020958285</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-31T17:22:38.285Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T19:03:56</date>
+  <millis>1541027036856</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:03:56.841 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-31T19:06:47</date>
+  <millis>1541027207867</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:06:47.867 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-31T19:06:51</date>
+  <millis>1541027211080</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:06:51.080Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-10-31T19:06:54</date>
+  <millis>1541027214659</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:06:54.659 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-31T19:07:00</date>
+  <millis>1541027220542</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:07:00.542Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-10-31T19:07:06</date>
+  <millis>1541027226173</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:07:06.173 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-31T19:07:11</date>
+  <millis>1541027231139</millis>
+  <sequence>6</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-31T19:07:11.139Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-31T20:28:33</date>
+  <millis>1541032113586</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:28:33.586 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-31T20:28:39</date>
+  <millis>1541032119429</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:28:39.429Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-10-31T20:28:40</date>
+  <millis>1541032120648</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:28:40.648 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-31T20:28:46</date>
+  <millis>1541032126956</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:28:46.956Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-10-31T20:28:48</date>
+  <millis>1541032128365</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:28:48.365 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-10-31T20:28:54</date>
+  <millis>1541032134733</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-10-31T20:28:54.733Response from Server: Course already exists! Try for other term.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:37:55</date>
+  <millis>1541108275584</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:37:55.569 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:38:02</date>
+  <millis>1541108282267</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:38:02.267Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T17:38:04</date>
+  <millis>1541108284655</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:38:04.655 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:38:09</date>
+  <millis>1541108289495</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:38:09.495Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:45:45</date>
+  <millis>1541108745236</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:45:45.220 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:45:49</date>
+  <millis>1541108749434</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:45:49.434Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T17:45:52</date>
+  <millis>1541108752343</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:45:52.343 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:45:57</date>
+  <millis>1541108757250</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:45:57.250Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T17:45:59</date>
+  <millis>1541108759755</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:45:59.755 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:46:10</date>
+  <millis>1541108770406</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:46:10.406Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T17:46:20</date>
+  <millis>1541108780239</millis>
+  <sequence>6</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:46:20.239 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:46:20</date>
+  <millis>1541108780271</millis>
+  <sequence>7</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:46:20.271Response from Server: true</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T17:51:21</date>
+  <millis>1541109081248</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:51:21.248 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:51:35</date>
+  <millis>1541109095533</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:51:35.533Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T17:51:37</date>
+  <millis>1541109097575</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:51:37.575 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:51:43</date>
+  <millis>1541109103933</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:51:43.933Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T17:51:48</date>
+  <millis>1541109108679</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:51:48.679 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-11-01T17:51:48</date>
+  <millis>1541109108710</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-11-01T17:51:48.710Response from Server: true</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T18:02:36</date>
+  <millis>1541109756523</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:02:36.523 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T18:03:08</date>
+  <millis>1541109788254</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:03:08.254Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T18:03:10</date>
+  <millis>1541109790857</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:03:10.857 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T18:03:15</date>
+  <millis>1541109795774</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:03:15.774Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T18:03:17</date>
+  <millis>1541109797210</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:03:17.210 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-11-01T18:03:17</date>
+  <millis>1541109797226</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:03:17.226Response from Server: true</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-01T18:06:10</date>
+  <millis>1541109970805</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:06:10.805 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T18:06:17</date>
+  <millis>1541109977350</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:06:17.350Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T18:06:20</date>
+  <millis>1541109980292</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:06:20.292 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-01T18:06:23</date>
+  <millis>1541109983954</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:06:23.954Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-01T18:06:26</date>
+  <millis>1541109986243</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:06:26.243 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-11-01T18:06:26</date>
+  <millis>1541109986276</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:06:26.276Response from Server: true</message>
+</record>
+<record>
+  <date>2018-11-01T18:08:43</date>
+  <millis>1541110123847</millis>
+  <sequence>6</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:08:43.847 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-11-01T18:08:43</date>
+  <millis>1541110123863</millis>
+  <sequence>7</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-11-01T18:08:43.863Response from Server: true</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T18:04:19</date>
+  <millis>1541282659905</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:04:19.905 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:04:24</date>
+  <millis>1541282664703</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:04:24.703Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T18:05:25</date>
+  <millis>1541282725546</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:05:25.546 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:05:29</date>
+  <millis>1541282729134</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:05:29.134Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T18:41:32</date>
+  <millis>1541284892883</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:41:32.883 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:36</date>
+  <millis>1541284896810</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:41:36.810Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:38</date>
+  <millis>1541284898811</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:41:38.811 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:43</date>
+  <millis>1541284903751</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:41:43.751 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:57</date>
+  <millis>1541284917605</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:41:57.605Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T18:41:59</date>
+  <millis>1541284919512</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:41:59.512 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T18:42:04</date>
+  <millis>1541284924498</millis>
+  <sequence>6</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T18:42:04.498Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:05:12</date>
+  <millis>1541286312210</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:12.210 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:17</date>
+  <millis>1541286317344</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:17.344Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:20</date>
+  <millis>1541286320666</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:20.666 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:23</date>
+  <millis>1541286323995</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:23.995Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:25</date>
+  <millis>1541286325514</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:25.514 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:05:28</date>
+  <millis>1541286328871</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:05:28.871Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:11:39</date>
+  <millis>1541286699828</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:39.812 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:43</date>
+  <millis>1541286703191</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:43.191Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:45</date>
+  <millis>1541286705372</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:45.372 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:47</date>
+  <millis>1541286707619</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:47.619Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:50</date>
+  <millis>1541286710604</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:50.604 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:11:53</date>
+  <millis>1541286713312</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:11:53.312Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:27:49</date>
+  <millis>1541287669138</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:27:49.122 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:27:51</date>
+  <millis>1541287671891</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:27:51.891Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:27:53</date>
+  <millis>1541287673158</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:27:53.158 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:27:57</date>
+  <millis>1541287677279</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:27:57.279Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:27:59</date>
+  <millis>1541287679331</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:27:59.331 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:28:01</date>
+  <millis>1541287681997</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:28:01.997Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:31:55</date>
+  <millis>1541287915723</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:31:55.723 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:31:59</date>
+  <millis>1541287919661</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:31:59.661Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:01</date>
+  <millis>1541287921393</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:01.393 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:03</date>
+  <millis>1541287923920</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:03.920Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:05</date>
+  <millis>1541287925739</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:05.739 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:32:08</date>
+  <millis>1541287928182</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:32:08.182Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-03T19:35:55</date>
+  <millis>1541288155810</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:35:55.810 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:35:58</date>
+  <millis>1541288158451</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:35:58.451Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-03T19:35:59</date>
+  <millis>1541288159717</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:35:59.717 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-03T19:36:01</date>
+  <millis>1541288161640</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-03T19:36:01.640Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T00:07:43</date>
+  <millis>1541304463604</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:07:43.588 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T00:07:48</date>
+  <millis>1541304468407</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:07:48.407Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T00:07:57</date>
+  <millis>1541304477708</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:07:57.708 Operation: List Course Availability
+</message>
+</record>
+<record>
+  <date>2018-11-04T00:07:57</date>
+  <millis>1541304477739</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>1</thread>
+  <message>2018-11-04T00:07:57.739Response from Server: true</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T01:29:31</date>
+  <millis>1541309371182</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:29:31.166 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T01:29:36</date>
+  <millis>1541309376386</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:29:36.386Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T01:44:31</date>
+  <millis>1541310271369</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:44:31.354 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T01:44:42</date>
+  <millis>1541310282678</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T01:44:42.678Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T12:38:32</date>
+  <millis>1541353112843</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:38:32.827 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:38:37</date>
+  <millis>1541353117539</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:38:37.539 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:07</date>
+  <millis>1541353147860</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:07.860 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:39:10</date>
+  <millis>1541353150689</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:39:10.689Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T12:48:12</date>
+  <millis>1541353692007</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:48:12.007 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:48:15</date>
+  <millis>1541353695966</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:48:15.966Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T12:48:26</date>
+  <millis>1541353706730</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:48:26.730 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:48:31</date>
+  <millis>1541353711326</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:48:31.326Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T12:54:13</date>
+  <millis>1541354053130</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:13.130 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:20</date>
+  <millis>1541354060975</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:20.975Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:22</date>
+  <millis>1541354062499</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:22.499 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T12:54:25</date>
+  <millis>1541354065120</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T12:54:25.120Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T13:40:24</date>
+  <millis>1541356824079</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:24.063 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:27</date>
+  <millis>1541356827230</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:27.230Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:28</date>
+  <millis>1541356828647</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:28.647 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T13:40:32</date>
+  <millis>1541356832365</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:40:32.365Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T13:56:56</date>
+  <millis>1541357816991</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:56:56.976 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:03</date>
+  <millis>1541357823818</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:57:03.818Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:11</date>
+  <millis>1541357831220</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:57:11.220 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T13:57:14</date>
+  <millis>1541357834925</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T13:57:14.925Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T15:19:52</date>
+  <millis>1541362792725</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:19:52.710 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T15:19:55</date>
+  <millis>1541362795673</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:19:55.673Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T15:19:57</date>
+  <millis>1541362797080</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:19:57.080 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T15:19:59</date>
+  <millis>1541362799998</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T15:19:59.998Response from Server: Success</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-04T16:00:33</date>
+  <millis>1541365233405</millis>
+  <sequence>0</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:00:33.389 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T16:00:47</date>
+  <millis>1541365247806</millis>
+  <sequence>1</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:00:47.806Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T16:00:50</date>
+  <millis>1541365250365</millis>
+  <sequence>2</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:00:50.365 Operation: Add Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T16:00:52</date>
+  <millis>1541365252631</millis>
+  <sequence>3</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>add_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:00:52.631Response from Server: Success</message>
+</record>
+<record>
+  <date>2018-11-04T16:03:20</date>
+  <millis>1541365400243</millis>
+  <sequence>4</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>client.Client</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:03:20.243 Operation: Remove Course
+</message>
+</record>
+<record>
+  <date>2018-11-04T16:03:26</date>
+  <millis>1541365406595</millis>
+  <sequence>5</sequence>
+  <logger>User Id: INSEA1001</logger>
+  <level>INFO</level>
+  <class>advisor.AdvisorOperations</class>
+  <method>remove_Course</method>
+  <thread>1</thread>
+  <message>2018-11-04T16:03:26.595Response from Server: Course Removed!</message>
+</record>
+</log>

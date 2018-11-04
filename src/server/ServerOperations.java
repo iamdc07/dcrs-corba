@@ -73,7 +73,7 @@ public class ServerOperations extends ServerPOA {
     }
 
     @Override
-    public String enroll(String courseId, String studentId, String term, String dept) {
+    public String enroll(String courseId, String studentId, String term, String dept, boolean swapOp) {
         HashMap<String, Course> theTerm = this.courseRecords.get(term);
         HashMap<String, List<String>> courses = this.studentlist.get(studentId);
         String idPrefix = studentId.substring(0, 4);
@@ -82,7 +82,7 @@ public class ServerOperations extends ServerPOA {
             if (theTerm != null && theTerm.containsKey(courseId)) {
                 Course course = theTerm.get(courseId);
 
-                String checkValue = enrollChecks(courseId, course, studentId, term, courses);
+                String checkValue = enrollChecks(courseId, course, studentId, term, courses, swapOp);
 
                 switch (checkValue) {
                     case "The course is full!":
@@ -150,44 +150,25 @@ public class ServerOperations extends ServerPOA {
                         + " | Server Response: Could not find the course!");
                 return "Could not find the course!";
             }
-        } else if (!(courseId.substring(0, 4).equals(idPrefix))) {
+        } else if (!(courseId.substring(0, 4).equals(idPrefix))) { // Check for Udp call
             int crossEnrollLimit = 0;
             boolean alreadyEnrolled = false;
+            String checkMessage = new String();
 
             if (courses != null && courses.containsKey(term)) {
                 List<String> termCourses = courses.get(term);
-                if (termCourses.size() == 3) {
-                    logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
-                            + " | Request Parameters: " + studentId + ", " + courseId + ", " + term
-                            + " | Request Failed"
-                            + " | Server Response: You have already reached your limit for this term!");
-                    return "You have already reached your limit for this term!";
-                }
-                for (String str : termCourses) {
-                    if (!(str.substring(0, 4).equalsIgnoreCase(dept))) {
-                        crossEnrollLimit++;
-                        if (str.equals(courseId)) {
-                            alreadyEnrolled = true;
-                        }
-                    }
-                    if (str.equals(courseId)) {
-                        alreadyEnrolled = true;
-                    }
-                }
+                checkMessage = udpEnrollChecks(courseId, studentId, term, dept, false, true);
             }
 
-            if (alreadyEnrolled) {
-                logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
-                        + " | Request Parameters: " + studentId + ", " + courseId + ", " + term + " | Request Failed"
-                        + " | Server Response: You have already enrolled for this course!");
-                return "You have already enrolled for this course!";
-            }
-
-            if (crossEnrollLimit == 2) {
-                logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
-                        + " | Request Parameters: " + studentId + ", " + courseId + ", " + term + " | Request Failed"
-                        + " | Server Response: You cannot enroll for more than 2 courses from other Department!");
-                return "You cannot enroll for more than 2 courses from other Department!";
+            switch (checkMessage) {
+                case "You have already reached your limit for this term!":
+                    return checkMessage;
+                case "You have already enrolled for this course!":
+                    return checkMessage;
+                case "You cannot enroll for more than 2 courses from other Department!":
+                    return checkMessage;
+                case "No errors":
+                    break;
             }
 
             // Code for enrolling in other department
@@ -195,7 +176,7 @@ public class ServerOperations extends ServerPOA {
             System.out.println("Check in prefix");
             System.out.println("Course prefix: " + courseId.substring(0, 4) + " | Studentid: " + studentId + " | term: "
                     + term + " | courseId: " + courseId);
-            udpPacket = new UdpPacket(1, courseId, studentId, term, courseId.substring(0, 4));
+            udpPacket = new UdpPacket(1, courseId, studentId, term, courseId.substring(0, 4), false);
             String response = (String) udpCall(courseId.substring(0, 4));
             System.out.println("SERVER response:" + response);
             if (response.equalsIgnoreCase("Successfully enrolled!")) {
@@ -263,44 +244,46 @@ public class ServerOperations extends ServerPOA {
 
     @Override
     public String dropCourse(String student_id, String courseId, String term, String dept) {
-        if (courseRecords.containsKey(term)) {
-            HashMap<String, Course> theTerm = this.courseRecords.get(term);
-            String idPrefix = student_id.substring(0, 4);
-            System.out.println("Courseid equals dept:" + courseId.substring(0, 4).equals(dept));
-            if (theTerm.containsKey(courseId)) {
-                Course course = theTerm.get(courseId);
-                ArrayList<String> theEnrolled = course.getEnrolledStudentId();
+        if (courseId.substring(0, 4).equalsIgnoreCase(dept)) {
+            if (courseRecords.containsKey(term)) {
+                HashMap<String, Course> theTerm = this.courseRecords.get(term);
+                String idPrefix = student_id.substring(0, 4);
+                System.out.println("Course id equals dept:" + courseId.substring(0, 4).equals(dept));
+                if (theTerm.containsKey(courseId)) {
+                    Course course = theTerm.get(courseId);
+                    ArrayList<String> theEnrolled = course.getEnrolledStudentId();
 
-                boolean result = theEnrolled.remove(student_id);
+                    boolean result = theEnrolled.remove(student_id);
 
-                if (result) {
-                    course.setEnrolledStudentIdList(theEnrolled);
-                    theTerm.put(courseId, course);
-                    this.courseRecords.put(term, theTerm);
-                } else {
+                    if (result) {
+                        course.setEnrolledStudentIdList(theEnrolled);
+                        theTerm.put(courseId, course);
+                        this.courseRecords.put(term, theTerm);
+                    } else {
+                        logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Drop Course"
+                                + " | Request Parameters: " + student_id + ", " + courseId + ", " + term
+                                + " | Request Failed " + " | Server Response: Student not enrolled");
+                        return "Fail";
+                    }
+
+                    if (idPrefix.equals(dept)) {
+                        HashMap<String, List<String>> studentCourses = this.studentlist.get(student_id);
+                        List<String> termCourses = studentCourses.get(term);
+                        termCourses.remove(courseId);
+                        studentCourses.put(term, termCourses);
+                        this.studentlist.put(student_id, studentCourses);
+                    }
                     logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Drop Course"
                             + " | Request Parameters: " + student_id + ", " + courseId + ", " + term
-                            + " | Request Failed " + " | Server Response: Student not enrolled");
-                    return "Fail";
+                            + " | Request Completed " + " | Server Response: Course Dropped");
+                    return "Course Dropped";
                 }
-
-                if (idPrefix.equals(dept)) {
-                    HashMap<String, List<String>> studentCourses = this.studentlist.get(student_id);
-                    List<String> termCourses = studentCourses.get(term);
-                    termCourses.remove(courseId);
-                    studentCourses.put(term, termCourses);
-                    this.studentlist.put(student_id, studentCourses);
-                }
-                logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Drop Course"
-                        + " | Request Parameters: " + student_id + ", " + courseId + ", " + term
-                        + " | Request Completed " + " | Server Response: Course Dropped");
-                return "Course Dropped";
             }
         } else if (!(courseId.substring(0, 4).equals(dept))) {
             System.out.println("In Udpcall if block");
             System.out.println("Dept: " + dept);
 
-            udpPacket = new UdpPacket(4, courseId, student_id, term, courseId.substring(0, 4));
+            udpPacket = new UdpPacket(4, courseId, student_id, term, courseId.substring(0, 4), true);
             String response = (String) udpCall(courseId.substring(0, 4));
 //					System.out.println("Response from Udp call" + response);
             if (response.equalsIgnoreCase("Course Dropped")) {
@@ -338,13 +321,6 @@ public class ServerOperations extends ServerPOA {
                     courseMap.remove(course_id);
                     this.courseRecords.put(term, courseMap);
 
-                    for (Entry<String, Integer> theTerm : this.coursesAvailable.entrySet()) {
-                        String course = theTerm.getKey();
-                        if (course != null && course.equalsIgnoreCase(course_id)) {
-                            courseRecords.remove(course_id);
-                        }
-                    }
-
                     if (dept.equalsIgnoreCase("COMP")) {
                         departments[0] = "SOEN";
                         departments[1] = "INSE";
@@ -358,11 +334,11 @@ public class ServerOperations extends ServerPOA {
 
                     removeCourseUdp(course_id, term);
 
-                    udpPacket = new UdpPacket(5, course_id, id, term, departments[0]);
+                    udpPacket = new UdpPacket(5, course_id, id, term, departments[0], false);
                     String response = (String) udpCall(departments[0]);
                     System.out.println("RESPONSE1: " + response);
 
-                    udpPacket = new UdpPacket(5, course_id, id, term, departments[1]);
+                    udpPacket = new UdpPacket(5, course_id, id, term, departments[1], false);
                     response = (String) udpCall(departments[1]);
                     System.out.println("RESPONSE2: " + response);
                 }
@@ -442,11 +418,11 @@ public class ServerOperations extends ServerPOA {
         System.out.println(ports.get(1));
         System.out.println(departments.get(1));
 
-        udpPacket = new UdpPacket(3, "", advisor_id, term, departments.get(0));
+        udpPacket = new UdpPacket(3, "", advisor_id, term, departments.get(0), false);
         @SuppressWarnings("unchecked")
         String response = (String) udpCall(departments.get(0));
 
-        udpPacket = new UdpPacket(3, "", advisor_id, term, departments.get(1));
+        udpPacket = new UdpPacket(3, "", advisor_id, term, departments.get(1), false);
         @SuppressWarnings("unchecked")
         String response1 = (String) udpCall(departments.get(1));
 
@@ -509,17 +485,190 @@ public class ServerOperations extends ServerPOA {
 
 
     @Override
-    public boolean swapCourse(String studentId, String oldCourseId, String newCourseId, String dept) {
+    public String swapCourse(String studentId, String oldCourseId, String newCourseId, String dept, String term) {
+        String oldCourseIdPrefix = oldCourseId.substring(0, 4);
+        String newCourseIdPrefix = newCourseId.substring(0, 4);
         String studentIdPrefix = studentId.substring(0, 4);
-        if (studentId.equalsIgnoreCase(dept)) { // Same dept Call
+        boolean udpCall = false, checkCrossEnroll = true, swapOp = false;
 
-        } else { //UDP Call
-
+        if (!(studentIdPrefix.equalsIgnoreCase(newCourseIdPrefix)) || (!(newCourseIdPrefix.equalsIgnoreCase(oldCourseIdPrefix)))) {
+            udpCall = true;
         }
-        return true;
+
+        if (newCourseIdPrefix.equalsIgnoreCase(oldCourseIdPrefix) || studentIdPrefix.equalsIgnoreCase(newCourseIdPrefix)) {
+            checkCrossEnroll = false;
+        }
+
+        if (studentIdPrefix.equalsIgnoreCase(newCourseIdPrefix)) {
+            swapOp = true;
+        }
+
+        String checkUdpValue = udpEnrollChecks(newCourseId, studentId, term, dept, true, checkCrossEnroll);
+        System.out.println("CheckUdpValue: " + checkUdpValue);
+
+        switch (checkUdpValue) {
+            case "You cannot enroll for more than 2 courses from other Department!":
+                return checkUdpValue;
+            case "You have already reached your limit for this term!":
+                return checkUdpValue;
+            case "You have already enrolled for this course!":
+                return checkUdpValue;
+            case "No errors":
+                break;
+        }
+
+
+        if (udpCall) { // Udp Call
+            System.out.println("IN DIFFERENT DEPT UDP CALL");
+            udpPacket = new UdpPacket(1, newCourseId, studentId, term, newCourseId.substring(0, 4), swapOp);
+            String response = (String) udpCall(newCourseId.substring(0, 4));
+
+            if (response.equalsIgnoreCase("Successfully enrolled!")) {
+                if (!(studentIdPrefix.equalsIgnoreCase(newCourseIdPrefix))) {
+                    enrollToStudentList(studentId, newCourseId, term);
+                }
+                logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                        + studentId + ", " + newCourseId + ", " + term + " | Request Completed" + " | Server Response: Successfully enrolled into new Course");
+                udpPacket = new UdpPacket(4, oldCourseId, studentId, term, oldCourseId.substring(0, 4), swapOp);
+                String dropResponse = (String) udpCall(oldCourseId.substring(0, 4));
+
+                if (dropResponse.equalsIgnoreCase("Course Dropped")) {
+                    if (!(studentIdPrefix.equalsIgnoreCase(oldCourseIdPrefix))) {
+                        dropFromStudentList(studentId, oldCourseId, term);
+                    }
+                    logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                            + studentId + ", " + oldCourseId + ", " + term + " | Request Completed" + " | Server Response: Course Dropped");
+                    return "Courses Swapped Successfully!";
+                } else if (dropResponse.equalsIgnoreCase("Fail")) {
+                    logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                            + studentId + ", " + oldCourseId + ", " + term + " | Request Failed" + " | Server Response: Student not enrolled in the course");
+                    udpPacket = new UdpPacket(4, newCourseId, studentId, term, newCourseId.substring(0, 4), swapOp);
+                    String dropBack = (String) udpCall(newCourseId.substring(0, 4));
+
+                    if (dropBack.equalsIgnoreCase("Course Dropped")) {
+                        if (!(studentIdPrefix.equalsIgnoreCase(newCourseIdPrefix))) {
+                            dropFromStudentList(studentId, newCourseId, term);
+                        }
+                        logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                                + studentId + ", " + newCourseId + ", " + term + " | Request Failed" + " | Server Response: Dropped the newly enrolled course");
+                        return ("Student is not enrolled in " + oldCourseId);
+                    }
+                } else if (dropResponse.equalsIgnoreCase("Could not find the course")) {
+                    logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                            + studentId + ", " + oldCourseId + ", " + term + " | Request Failed" + " | Server Response: Could not find the old course");
+                    udpPacket = new UdpPacket(4, newCourseId, studentId, term, newCourseId.substring(0, 4), swapOp);
+                    String dropBack = (String) udpCall(newCourseId.substring(0, 4));
+
+                    if (dropBack.equalsIgnoreCase("Course Dropped")) {
+                        if (!(studentIdPrefix.equalsIgnoreCase(newCourseIdPrefix))) {
+                            dropFromStudentList(studentId, newCourseId, term);
+                        }
+                        logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                                + studentId + ", " + newCourseId + ", " + term + " | Request Failed" + " | Server Response: Dropped the newly enrolled course");
+                        return ("Course does not exists: " + oldCourseId);
+                    }
+                }
+            } else if (response.equalsIgnoreCase("Could not find the course!")) {
+                return (response.concat(" | Could not find the new course!"));
+            } else if (response.equalsIgnoreCase("Term not found!")) {
+                return (response.concat(" | Term not found for new Course"));
+            }
+        } else {
+            HashMap<String, Course> theTerm = this.courseRecords.get(term);
+            HashMap<String, List<String>> courses = this.studentlist.get(studentId);
+
+            System.out.println("OLD PREFIX ID: " + oldCourseIdPrefix);
+            System.out.println("NEW PREFIX ID: " + newCourseIdPrefix);
+            System.out.println("STUDENT PREFIX ID: " + studentIdPrefix);
+
+            System.out.println("IN SAME DEPT SWAP CALL");
+
+            if (theTerm != null && theTerm.containsKey(newCourseId)) {
+                Course course = theTerm.get(newCourseId);
+
+                String checkValue = enrollChecks(newCourseId, course, studentId, term, courses, true);
+
+                switch (checkValue) {
+                    case "The course is full!":
+                        return checkValue;
+                    case "You have already reached your limit for this term!":
+                        return checkValue;
+                    case "You have already enrolled for this course!":
+                        return checkValue;
+                    case "No errors":
+                        break;
+                }
+
+                String dropResult = dropCourse(studentId, oldCourseId, term, dept);
+
+                if (dropResult.equalsIgnoreCase("Course Dropped")) {
+                    logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                            + studentId + ", " + oldCourseId + ", " + term + " | Drop Request Completed" + " | Server Response: Course found and Dropped");
+                    String enrollResult = enroll(newCourseId, studentId, term, dept, swapOp);
+
+                    if (enrollResult.equalsIgnoreCase("Successfully enrolled!")) {
+                        logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                                + studentId + ", " + newCourseId + ", " + term + " | Request Completed" + " | Server Response: Successfully enrolled");
+                        return "Courses Swapped Successfully!";
+                    } else if (enrollResult.equalsIgnoreCase("Could not find the course!")) {
+                        logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                                + studentId + ", " + newCourseId + ", " + term + " | Request Failed" + " | Server Response: Course not found");
+                        String enrollBack = enroll(studentId, oldCourseId, term, dept, swapOp);
+
+                        if (enrollBack.equalsIgnoreCase("Successfully enrolled!")) {
+                            logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                                    + studentId + ", " + oldCourseId + ", " + term + " | Request Failed" + " | Server Response: Reverted Drop Operation");
+                            return (enrollResult.concat(" | Could not find the new course!"));
+                        }
+                    } else if (enrollResult.equalsIgnoreCase("Term not found!")) {
+                        logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                                + studentId + ", " + newCourseId + ", " + term + " | Request Failed" + " | Server Response: Term not found");
+                        String enrollBack = enroll(studentId, oldCourseId, term, dept, swapOp);
+
+                        if (enrollBack.equalsIgnoreCase("Successfully enrolled!")) {
+                            logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                                    + studentId + ", " + oldCourseId + ", " + term + " | Request Failed" + " | Server Response: Reverted Drop Operation");
+                            return (enrollResult.concat(" | Term not found for the new Course!"));
+                        }
+                    }
+                } else if (dropResult.equalsIgnoreCase("Fail")) {
+                    return ("Student is not enrolled in " + oldCourseId);
+                } else if (dropResult.equalsIgnoreCase("Could not find the course")) {
+                    return "Could not find the course!";
+                }
+            } else {
+                logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Swap Course" + " | Request Parameters: "
+                        + studentId + ", " + newCourseId + ", " + term + " | Request Failed" + " | Server Response: Course not found");
+                return "Course to enroll doesn't exist!";
+            }
+        }
+        return "Server Error";
     }
 
-    private String enrollChecks(String courseId, Course course, String studentId, String term, HashMap<String, List<String>> courses) {
+    private void enrollToStudentList(String studentId, String courseId, String term) {
+        HashMap<String, List<String>> studentCourses = this.studentlist.get(studentId);
+        List<String> termCourses = studentCourses.get(term);
+        if (termCourses != null) {
+            termCourses.add(courseId);
+            studentCourses.put(term, termCourses);
+            this.studentlist.put(studentId, studentCourses);
+        } else {
+            List<String> termCourses1 = new ArrayList<>();
+            termCourses1.add(courseId);
+            studentCourses.put(term, termCourses1);
+            this.studentlist.put(studentId, studentCourses);
+        }
+    }
+
+    private void dropFromStudentList(String student_id, String courseId, String term) {
+        HashMap<String, List<String>> studentCourses = this.studentlist.get(student_id);
+        List<String> termCourses = studentCourses.get(term);
+        termCourses.remove(courseId);
+        studentCourses.put(term, termCourses);
+        this.studentlist.put(student_id, studentCourses);
+    }
+
+    protected String enrollChecks(String courseId, Course course, String studentId, String term, HashMap<String, List<String>> courses, boolean swapOp) {
         String idPrefix = studentId.substring(0, 4);
         if (course.isCourseFull()) {
             logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
@@ -531,7 +680,7 @@ public class ServerOperations extends ServerPOA {
         if (courseId.substring(0, 4).equals(idPrefix)) {
             if (courses.containsKey(term)) {
                 List<String> termCourses = courses.get(term);
-                if (termCourses.size() == 3) {
+                if (termCourses.size() == 3 && !swapOp) {
                     logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
                             + " | Request Parameters: " + studentId + ", " + courseId + ", " + term
                             + " | Request Failed"
@@ -548,6 +697,38 @@ public class ServerOperations extends ServerPOA {
                     }
                 }
             }
+        }
+        return "No errors";
+    }
+
+    protected String udpEnrollChecks(String courseId, String studentId, String term, String dept, boolean swapOp, boolean checkCrossEnroll) {
+        HashMap<String, List<String>> courses = this.studentlist.get(studentId);
+        List<String> termCourses = courses.get(term);
+        int crossEnrollLimit = 0;
+        if (termCourses.size() == 3 && !swapOp) {
+            logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
+                    + " | Request Parameters: " + studentId + ", " + courseId + ", " + term
+                    + " | Request Failed"
+                    + " | Server Response: You have already reached your limit for this term!");
+            return "You have already reached your limit for this term!";
+        }
+
+        for (String str : termCourses) {
+            if (!(str.substring(0, 4).equalsIgnoreCase(dept))) {
+                crossEnrollLimit++;
+                if (str.equals(courseId)) {
+                    return "You have already enrolled for this course!";
+                }
+            }
+            if (str.equals(courseId)) {
+                return "You have already enrolled for this course!";
+            }
+        }
+        if (crossEnrollLimit == 2 && checkCrossEnroll) {
+            logs.info("Date & Time: " + LocalDateTime.now() + " | Request type: Enroll Course"
+                    + " | Request Parameters: " + studentId + ", " + courseId + ", " + term + " | Request Failed"
+                    + " | Server Response: You cannot enroll for more than 2 courses from other Department!");
+            return "You cannot enroll for more than 2 courses from other Department!";
         }
         return "No errors";
     }
