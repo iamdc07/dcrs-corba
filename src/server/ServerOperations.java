@@ -103,7 +103,6 @@ public class ServerOperations extends ServerPOA {
                 if (idPrefix.equals(dept)) {
                     System.out.println(term);
                     if (this.studentlist.containsKey(studentId)) {
-//                        HashMap<String, List<String>> studentCourses = this.studentlist.get(studentId);
 
                         if (courses.containsKey(term)) {
                             List<String> termCourses = courses.get(term);
@@ -489,14 +488,14 @@ public class ServerOperations extends ServerPOA {
         String oldCourseIdPrefix = oldCourseId.substring(0, 4);
         String newCourseIdPrefix = newCourseId.substring(0, 4);
         String studentIdPrefix = studentId.substring(0, 4);
-        boolean udpCall = false, checkCrossEnroll = true, swapOp = false;
+        boolean udpCall = false, checkCrossEnroll = false, swapOp = false;
 
         if (!(studentIdPrefix.equalsIgnoreCase(newCourseIdPrefix)) || (!(newCourseIdPrefix.equalsIgnoreCase(oldCourseIdPrefix)))) {
             udpCall = true;
         }
 
-        if (newCourseIdPrefix.equalsIgnoreCase(oldCourseIdPrefix) || studentIdPrefix.equalsIgnoreCase(newCourseIdPrefix)) {
-            checkCrossEnroll = false;
+        if (oldCourseIdPrefix.equalsIgnoreCase(dept) || (!newCourseIdPrefix.equalsIgnoreCase(dept))) {
+            checkCrossEnroll = true;
         }
 
         if (studentIdPrefix.equalsIgnoreCase(newCourseIdPrefix)) {
