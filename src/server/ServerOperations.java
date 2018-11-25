@@ -1,19 +1,16 @@
 package server;
 
 import CourseRegistrationApp.*;
-import org.omg.CORBA.ShortHolder;
 import org.omg.CORBA.StringHolder;
 import schema.Course;
 import schema.UdpPacket;
 
 import java.io.*;
-import java.lang.reflect.Array;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.net.SocketException;
 import java.rmi.RemoteException;
-import java.rmi.server.UnicastRemoteObject;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -484,7 +481,7 @@ public class ServerOperations extends ServerPOA {
 
 
     @Override
-    public String swapCourse(String studentId, String oldCourseId, String newCourseId, String dept, String term) {
+    public synchronized String swapCourse(String studentId, String oldCourseId, String newCourseId, String dept, String term) {
         String oldCourseIdPrefix = oldCourseId.substring(0, 4);
         String newCourseIdPrefix = newCourseId.substring(0, 4);
         String studentIdPrefix = studentId.substring(0, 4);
@@ -494,7 +491,7 @@ public class ServerOperations extends ServerPOA {
             udpCall = true;
         }
 
-        if (oldCourseIdPrefix.equalsIgnoreCase(dept) || (!newCourseIdPrefix.equalsIgnoreCase(dept))) {
+        if (oldCourseIdPrefix.equalsIgnoreCase(dept)) {
             checkCrossEnroll = true;
         }
 

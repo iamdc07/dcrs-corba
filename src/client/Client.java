@@ -23,7 +23,7 @@ public class Client {
     private static Logger logs;
     private static FileHandler fileHandler;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 //        ServerInterface server = null;
         Scanner sc = new Scanner(System.in);
         Server server;
@@ -169,6 +169,7 @@ public class Client {
                     System.out.println("2. Drop Course: ");
                     System.out.println("3. Get Class Schedule: ");
                     System.out.println("4. Swap Course: ");
+                    System.out.println("5. Swap Course(Multi Threaded): ");
                     String choice = sc.nextLine();
 
                     if (choice.equals("1")) {
@@ -183,6 +184,9 @@ public class Client {
                     } else if (choice.equals("4")) {
                         logs.info(LocalDateTime.now() + " Operation: Swap Course");
                         studentoperations.swapCourse(id, dept, term, server);
+                    } else if (choice.equals("5")) {
+                        logs.info(LocalDateTime.now() + " Operation: Swap Course(MultiThreaded)");
+                        studentoperations.swapMultiThread(dept, term, server);
                     }
 
                 }

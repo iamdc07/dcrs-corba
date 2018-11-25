@@ -7499,3 +7499,664 @@
   <message>Date &amp; Time: 2018-11-04T21:25:30.125 | Request type: Enroll Course | Request Parameters: SOENS1001, COMP1002, winter | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
 </record>
 </log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-05T13:36:02</date>
+  <millis>1541442962762</millis>
+  <sequence>0</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: COMP</message>
+</record>
+<record>
+  <date>2018-11-05T13:36:02</date>
+  <millis>1541442962840</millis>
+  <sequence>1</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for COMP is up and running on port 6789</message>
+</record>
+<record>
+  <date>2018-11-05T13:38:02</date>
+  <millis>1541443082119</millis>
+  <sequence>2</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T13:38:02.104 | Request type: Enroll Course | Request Parameters: COMPS1001, INSE6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T13:38:15</date>
+  <millis>1541443095332</millis>
+  <sequence>3</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T13:38:15.332 | Request type: Add Course | Request Parameters: COMPA1001, COMP6320, summer | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-05T13:38:30</date>
+  <millis>1541443110719</millis>
+  <sequence>4</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T13:38:30.719 | Request type: Enroll Course | Request Parameters: COMPS1001, COMP6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T13:38:39</date>
+  <millis>1541443119562</millis>
+  <sequence>5</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T13:38:39.562 | Request type: Get Class Schedule | Request Parameters: COMPS1001 | Request Completed | Server Response: summer;INSE6320;COMP6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T13:40:09</date>
+  <millis>1541443209812</millis>
+  <sequence>6</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T13:40:09.812 | Request type: Add Course | Request Parameters: COMPA1001, COMP6461, summer | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-05T13:40:21</date>
+  <millis>1541443221139</millis>
+  <sequence>7</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>14</thread>
+  <message>Date &amp; Time: 2018-11-05T13:40:21.139 | Request type: Enroll Course | Request Parameters: COMPS1001, COMP6461, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T13:40:21</date>
+  <millis>1541443221139</millis>
+  <sequence>8</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T13:40:21.139 | Request type: Swap Course | Request Parameters: COMPS1001, COMP6461, summer | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-05T13:40:21</date>
+  <millis>1541443221155</millis>
+  <sequence>9</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T13:40:21.155 | Request type: Swap Course | Request Parameters: COMPS1001, INSE6320, summer | Request Completed | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-05T13:40:24</date>
+  <millis>1541443224056</millis>
+  <sequence>10</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T13:40:24.056 | Request type: Get Class Schedule | Request Parameters: COMPS1001 | Request Completed | Server Response: summer;COMP6320;COMP6461;,</message>
+</record>
+<record>
+  <date>2018-11-05T13:40:30</date>
+  <millis>1541443230186</millis>
+  <sequence>11</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>listCourseAvailability</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T13:40:30.186 | Request type: List Course Availability | Request Parameters: COMPA1001, summer | Request Completed | Server Response: CourseRegistrationApp.TermHolder@6854df76</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-05T14:18:13</date>
+  <millis>1541445493319</millis>
+  <sequence>0</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: COMP</message>
+</record>
+<record>
+  <date>2018-11-05T14:18:13</date>
+  <millis>1541445493350</millis>
+  <sequence>1</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for COMP is up and running on port 6789</message>
+</record>
+<record>
+  <date>2018-11-05T14:18:50</date>
+  <millis>1541445530118</millis>
+  <sequence>2</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:18:50.118 | Request type: Add Course | Request Parameters: COMPA1001, COMP6320, summer | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-05T14:20:57</date>
+  <millis>1541445657613</millis>
+  <sequence>3</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:20:57.613 | Request type: Enroll Course | Request Parameters: COMPS1001, SOEN6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T14:21:46</date>
+  <millis>1541445706700</millis>
+  <sequence>4</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:21:46.700 | Request type: Enroll Course | Request Parameters: COMPS1002, INSE6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T14:21:50</date>
+  <millis>1541445710411</millis>
+  <sequence>5</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:21:50.411 | Request type: Get Class Schedule | Request Parameters: COMPS1002 | Request Completed | Server Response: summer;INSE6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T14:21:57</date>
+  <millis>1541445717181</millis>
+  <sequence>6</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:21:57.181 | Request type: Get Class Schedule | Request Parameters: COMPS1001 | Request Completed | Server Response: summer;SOEN6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T14:22:06</date>
+  <millis>1541445726428</millis>
+  <sequence>7</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>15</thread>
+  <message>Date &amp; Time: 2018-11-05T14:22:06.428 | Request type: Enroll Course | Request Parameters: COMPS1002, COMP6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T14:22:06</date>
+  <millis>1541445726428</millis>
+  <sequence>8</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:22:06.428 | Request type: Swap Course | Request Parameters: COMPS1002, COMP6320, summer | Request Completed | Server Response: Successfully enrolled into new Course</message>
+</record>
+<record>
+  <date>2018-11-05T14:22:06</date>
+  <millis>1541445726428</millis>
+  <sequence>9</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>swapCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:22:06.428 | Request type: Swap Course | Request Parameters: COMPS1002, INSE6320, summer | Request Completed | Server Response: Course Dropped</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-05T14:25:59</date>
+  <millis>1541445959163</millis>
+  <sequence>0</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: COMP</message>
+</record>
+<record>
+  <date>2018-11-05T14:25:59</date>
+  <millis>1541445959179</millis>
+  <sequence>1</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for COMP is up and running on port 6789</message>
+</record>
+<record>
+  <date>2018-11-05T14:26:32</date>
+  <millis>1541445992331</millis>
+  <sequence>2</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:26:32.315 | Request type: Add Course | Request Parameters: COMPA1001, COMP6320, summer | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-05T14:27:11</date>
+  <millis>1541446031367</millis>
+  <sequence>3</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:27:11.367 | Request type: Enroll Course | Request Parameters: COMPS1001, SOEN6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T14:27:36</date>
+  <millis>1541446056968</millis>
+  <sequence>4</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:27:36.968 | Request type: Enroll Course | Request Parameters: COMPS1002, COMP6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T14:27:41</date>
+  <millis>1541446061084</millis>
+  <sequence>5</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:27:41.084 | Request type: Get Class Schedule | Request Parameters: COMPS1002 | Request Completed | Server Response: summer;COMP6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T14:27:44</date>
+  <millis>1541446064837</millis>
+  <sequence>6</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:27:44.837 | Request type: Get Class Schedule | Request Parameters: COMPS1001 | Request Completed | Server Response: summer;SOEN6320;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-05T14:29:29</date>
+  <millis>1541446169740</millis>
+  <sequence>0</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: COMP</message>
+</record>
+<record>
+  <date>2018-11-05T14:29:29</date>
+  <millis>1541446169755</millis>
+  <sequence>1</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for COMP is up and running on port 6789</message>
+</record>
+<record>
+  <date>2018-11-05T14:29:58</date>
+  <millis>1541446198574</millis>
+  <sequence>2</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:29:58.558 | Request type: Add Course | Request Parameters: COMPA1001, COMP6320, summer | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-05T14:30:50</date>
+  <millis>1541446250289</millis>
+  <sequence>3</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:30:50.289 | Request type: Enroll Course | Request Parameters: COMPS1001, COMP6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T14:30:56</date>
+  <millis>1541446256328</millis>
+  <sequence>4</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>dropCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:30:56.328 | Request type: Drop Course | Request Parameters: COMPS1001, COMP6320, summer | Request Completed  | Server Response: Course Dropped</message>
+</record>
+<record>
+  <date>2018-11-05T14:31:02</date>
+  <millis>1541446262437</millis>
+  <sequence>5</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:31:02.437 | Request type: Enroll Course | Request Parameters: COMPS1001, SOEN6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T14:31:05</date>
+  <millis>1541446265608</millis>
+  <sequence>6</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:31:05.608 | Request type: Get Class Schedule | Request Parameters: COMPS1001 | Request Completed | Server Response: summer;SOEN6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T14:31:15</date>
+  <millis>1541446275774</millis>
+  <sequence>7</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:31:15.774 | Request type: Enroll Course | Request Parameters: COMPS1002, COMP6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T14:31:19</date>
+  <millis>1541446279230</millis>
+  <sequence>8</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:31:19.230 | Request type: Get Class Schedule | Request Parameters: COMPS1002 | Request Completed | Server Response: summer;COMP6320;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-05T14:39:14</date>
+  <millis>1541446754063</millis>
+  <sequence>0</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: COMP</message>
+</record>
+<record>
+  <date>2018-11-05T14:39:14</date>
+  <millis>1541446754094</millis>
+  <sequence>1</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for COMP is up and running on port 6789</message>
+</record>
+<record>
+  <date>2018-11-05T14:39:33</date>
+  <millis>1541446773468</millis>
+  <sequence>2</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:39:33.452 | Request type: Add Course | Request Parameters: COMPA1001, COMP6320, summer | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-05T14:40:18</date>
+  <millis>1541446818933</millis>
+  <sequence>3</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:40:18.933 | Request type: Enroll Course | Request Parameters: COMPS1001, SOEN6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T14:40:21</date>
+  <millis>1541446821831</millis>
+  <sequence>4</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:40:21.831 | Request type: Get Class Schedule | Request Parameters: COMPS1001 | Request Completed | Server Response: summer;SOEN6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T14:40:34</date>
+  <millis>1541446834920</millis>
+  <sequence>5</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:40:34.920 | Request type: Enroll Course | Request Parameters: COMPS1002, INSE6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T14:40:37</date>
+  <millis>1541446837702</millis>
+  <sequence>6</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:40:37.702 | Request type: Get Class Schedule | Request Parameters: COMPS1002 | Request Completed | Server Response: summer;INSE6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T14:41:02</date>
+  <millis>1541446862866</millis>
+  <sequence>7</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>17</thread>
+  <message>Date &amp; Time: 2018-11-05T14:41:02.866 | Request type: Get Class Schedule | Request Parameters: COMPS1002 | Request Completed | Server Response: summer;INSE6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T14:41:07</date>
+  <millis>1541446867347</millis>
+  <sequence>8</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>17</thread>
+  <message>Date &amp; Time: 2018-11-05T14:41:07.347 | Request type: Get Class Schedule | Request Parameters: COMPS1001 | Request Completed | Server Response: summer;SOEN6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T14:43:21</date>
+  <millis>1541447001626</millis>
+  <sequence>9</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>19</thread>
+  <message>Date &amp; Time: 2018-11-05T14:43:21.626 | Request type: Get Class Schedule | Request Parameters: COMPS1001 | Request Completed | Server Response: summer;SOEN6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T14:43:26</date>
+  <millis>1541447006020</millis>
+  <sequence>10</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>19</thread>
+  <message>Date &amp; Time: 2018-11-05T14:43:26.020 | Request type: Get Class Schedule | Request Parameters: COMPS1002 | Request Completed | Server Response: summer;INSE6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T14:43:48</date>
+  <millis>1541447028563</millis>
+  <sequence>11</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>21</thread>
+  <message>Date &amp; Time: 2018-11-05T14:43:48.563 | Request type: Get Class Schedule | Request Parameters: COMPS1001 | Request Completed | Server Response: summer;SOEN6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T14:43:51</date>
+  <millis>1541447031942</millis>
+  <sequence>12</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>21</thread>
+  <message>Date &amp; Time: 2018-11-05T14:43:51.942 | Request type: Get Class Schedule | Request Parameters: COMPS1002 | Request Completed | Server Response: summer;INSE6320;,</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-05T14:46:58</date>
+  <millis>1541447218115</millis>
+  <sequence>0</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The campus server is up and running! Reference: COMP</message>
+</record>
+<record>
+  <date>2018-11-05T14:46:58</date>
+  <millis>1541447218131</millis>
+  <sequence>1</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The UDP server for COMP is up and running on port 6789</message>
+</record>
+<record>
+  <date>2018-11-05T14:47:21</date>
+  <millis>1541447241236</millis>
+  <sequence>2</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>addCourse</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:47:21.236 | Request type: Add Course | Request Parameters: COMPA1001, COMP6320, summer | Request Completed | Server Response: Course Successfully Added</message>
+</record>
+<record>
+  <date>2018-11-05T14:48:19</date>
+  <millis>1541447299673</millis>
+  <sequence>3</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:48:19.673 | Request type: Enroll Course | Request Parameters: COMPS1001, SOEN6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T14:48:22</date>
+  <millis>1541447302130</millis>
+  <sequence>4</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:48:22.130 | Request type: Get Class Schedule | Request Parameters: COMPS1001 | Request Completed | Server Response: summer;SOEN6320;,</message>
+</record>
+<record>
+  <date>2018-11-05T14:48:36</date>
+  <millis>1541447316973</millis>
+  <sequence>5</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>enroll</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:48:36.973 | Request type: Enroll Course | Request Parameters: COMPS1002, INSE6320, summer | Request Succesfully Completed | Server Response: Successfully enrolled!</message>
+</record>
+<record>
+  <date>2018-11-05T14:48:40</date>
+  <millis>1541447320832</millis>
+  <sequence>6</sequence>
+  <logger>COMP Server</logger>
+  <level>INFO</level>
+  <class>server.ServerOperations</class>
+  <method>getClassSchedule</method>
+  <thread>13</thread>
+  <message>Date &amp; Time: 2018-11-05T14:48:40.832 | Request type: Get Class Schedule | Request Parameters: COMPS1002 | Request Completed | Server Response: summer;INSE6320;,</message>
+</record>

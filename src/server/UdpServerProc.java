@@ -64,7 +64,7 @@ public class UdpServerProc implements Runnable {
                     break;
                 default:
                     responseMessage = serialize("Server Communication Error");
-                    logs.warning("Operation not found!");
+                    System.out.println("Operation not found!");
                     break;
             }
             DatagramPacket response = new DatagramPacket(responseMessage, responseMessage.length,

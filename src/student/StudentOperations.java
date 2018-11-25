@@ -69,4 +69,30 @@ public class StudentOperations {
         logs.info(LocalDateTime.now() + "Response from Server: " + result);
         System.out.println(result);
     }
+
+    public void swapMultiThread(String dept, String term, Server server) throws InterruptedException {
+        String firstStudentId = "COMPS1001";
+        String secondStudentId = "COMPS1002";
+
+        System.out.println("FIRST STUDENTID : " + firstStudentId);
+        System.out.println("SECOND STUDENTID : " + secondStudentId);
+
+        String result = server.enroll("SOEN1001", firstStudentId, term, dept, false);
+        result = server.enroll("INSE1001", secondStudentId, term, dept, false);
+
+        getClassSchedule(firstStudentId, server);
+        getClassSchedule(secondStudentId, server);
+
+        MultiThreadOps req1 = new MultiThreadOps(firstStudentId, "SOEN1001", "COMP1001", dept, term, server);
+        MultiThreadOps req2 = new MultiThreadOps(secondStudentId, "INSE1001", "COMP1001", dept, term, server);
+
+        req1.start();
+        req2.start();
+
+        getClassSchedule(firstStudentId, server);
+        getClassSchedule(secondStudentId, server);
+
+//        logs.info(LocalDateTime.now() + "Response from Server: " + result);
+//        System.out.println(result);
+    }
 }
